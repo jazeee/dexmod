@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dex_stop_sensor_remove_the_sensor_pod" style="?dexH2" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sensor_insertion" android:contentDescription="@string/help_menu_text_51" android:paddingStart="32.0dip" android:paddingEnd="32.0dip" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dex_stop_sensor_remove_the_transmitter_from_the_sensor_pod" style="?dexH2" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tx_insertion" android:contentDescription="@string/main_screen_error_text_20" android:paddingStart="32.0dip" android:paddingEnd="32.0dip" />
+</LinearLayout>

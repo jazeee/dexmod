@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/CGMStateCircle" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:CalibrationCircle="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@id/CGMStateCircleLayout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.dexcom.cgm.activities.CGMStateCircle android:id="@id/calibrationCircle" android:layout_width="fill_parent" android:layout_height="fill_parent" CalibrationCircle:textColor="@color/dex_white" CalibrationCircle:barColor="@color/dex_orange" CalibrationCircle:rimColor="@color/dex_orange_warmup_light" CalibrationCircle:rimWidth="14.0dip" CalibrationCircle:centerCircleColor="@color/dex_green" CalibrationCircle:centerCircleRadius="90.0dip" CalibrationCircle:gapColor="@color/dex_white" CalibrationCircle:bar_Width="14.0dip" />
+    </RelativeLayout>
+    <FrameLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/magGlassView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.dexcom.cgm.activities.MagGlassCompass android:id="@id/magGlassCompassView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foregroundGravity="center" />
+        <TextView android:textSize="64.0sp" android:textColor="@color/dex_black" android:gravity="center" android:layout_gravity="center" android:id="@id/textViewEGV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-5.0dip" android:text="@string/mag_glass_glucose_default" style="DexText" />
+        <TextView android:textSize="20.0sp" android:textColor="@color/dex_black" android:gravity="center" android:layout_gravity="center" android:id="@id/textViewEGVUnits" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="@string/mgdl_unit_of_measurement" android:fontFamily="sans-serif-light" style="DexText" />
+    </FrameLayout>
+</FrameLayout>

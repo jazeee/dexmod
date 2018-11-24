@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dexcom.cgm.activities.controls.DexBackButtonToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:title="@string/share_screen_text_37" style="@style/DexToolbar" />
+    <LinearLayout android:orientation="vertical" android:background="@color/dex_white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/notification_settings" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/share_screen_text_47" android:paddingStart="@dimen/side_margin_size" android:paddingEnd="@dimen/side_margin_size" style="?dexH2" />
+        <FrameLayout android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+        <ScrollView android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:background="@color/dex_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="?android:listDivider" android:splitMotionEvents="false" android:showDividers="middle">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.dexcom.cgm.activities.DexListSwitchView android:id="@id/urgent_low_alert_switch" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/urgent_low_alarm_text" />
+                    <ImageView android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/ic_help_blue" android:onClick="onClickUrgentLowHelp" android:contentDescription="@string/dex_general_help" android:layout_marginStart="@dimen/side_margin_size" android:layout_marginEnd="0.0dip" />
+                </LinearLayout>
+                <com.dexcom.cgm.activities.DexListNavView android:id="@id/urgent_low_threshold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClickUrgentLowThreshold" app:listTitle="@string/share_screen_text_39" app:listEndText="@string/share_mgdl" />
+                <FrameLayout android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.dexcom.cgm.activities.DexListSwitchView android:id="@id/low_alert_switch" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/user_low_alert_text" />
+                    <ImageView android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/ic_help_blue" android:onClick="onClickLowHelp" android:contentDescription="@string/dex_general_help" android:layout_marginStart="@dimen/side_margin_size" android:layout_marginEnd="0.0dip" />
+                </LinearLayout>
+                <com.dexcom.cgm.activities.DexListNavView android:id="@id/low_threshold" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClickLowThreshold" app:listTitle="@string/share_screen_text_39" app:listEndText="@string/share_mgdl" />
+                <com.dexcom.cgm.activities.DexListNavView android:id="@id/low_delay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="showLowDelayPicker" app:listTitle="@string/dex_alerts_for_more_than" app:listEndText="@string/time_60" />
+                <FrameLayout android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.dexcom.cgm.activities.DexListSwitchView android:id="@id/high_alert_switch" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/user_high_alert_text" />
+                    <ImageView android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/ic_help_blue" android:onClick="onClickHighHelp" android:contentDescription="@string/dex_general_help" android:layout_marginStart="@dimen/side_margin_size" android:layout_marginEnd="0.0dip" />
+                </LinearLayout>
+                <com.dexcom.cgm.activities.DexListNavView android:id="@id/high_threshold" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClickHighThreshold" app:listTitle="@string/share_screen_text_45" app:listEndText="@string/share_mgdl" />
+                <com.dexcom.cgm.activities.DexListNavView android:id="@id/high_delay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="showHighDelayPicker" app:listTitle="@string/dex_alerts_for_more_than" app:listEndText="@string/time_60" />
+                <FrameLayout android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.dexcom.cgm.activities.DexListSwitchView android:id="@id/no_data_alert_switch" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/share_screen_text_46" />
+                    <ImageView android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/ic_help_blue" android:onClick="onClickNoDataHelp" android:contentDescription="@string/dex_general_help" android:layout_marginStart="@dimen/side_margin_size" android:layout_marginEnd="0.0dip" />
+                </LinearLayout>
+                <com.dexcom.cgm.activities.DexListNavView android:id="@id/no_data_delay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="showNoDataDelayPicker" app:listTitle="@string/dex_alerts_for_more_than" app:listEndText="@string/time_60" />
+            </LinearLayout>
+        </ScrollView>
+        <FrameLayout android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+        <com.dexcom.cgm.activities.DualButton android:paddingTop="8.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/side_margin_size" android:paddingEnd="@dimen/side_margin_size" app:textPositive="@string/setup_wizard_next" app:textNegative="" app:onClickPositive="onClickNext" app:hideNegative="true" />
+        <com.dexcom.cgm.activities.CircleArray android:layout_gravity="center" android:id="@id/circleArray" android:layout_width="90.0dip" android:layout_height="20.0dip" android:layout_marginBottom="16.0dip" app:numCircles="4" app:currentCircle="2" />
+    </LinearLayout>
+</LinearLayout>

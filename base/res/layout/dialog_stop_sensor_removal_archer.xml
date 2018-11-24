@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dex_stop_sensor_archer_remove_the_patch" style="?dexH2" />
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-32.0dip" android:layout_marginBottom="-32.0dip" android:src="@drawable/stop_sensor_remove_patch" android:contentDescription="@string/dex_stop_sensor_archer_remove_the_patch" android:paddingStart="32.0dip" android:paddingEnd="32.0dip" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dex_stop_sensor_archer_release_transmitter" style="?dexH2" />
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-32.0dip" android:layout_marginBottom="-32.0dip" android:src="@drawable/stop_sensor_release_transmitter" android:contentDescription="@string/dex_stop_sensor_archer_release_transmitter" android:paddingStart="32.0dip" android:paddingEnd="32.0dip" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dex_stop_sensor_archer_remove_transmitter" style="?dexH2" />
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-32.0dip" android:layout_marginBottom="-32.0dip" android:src="@drawable/stop_sensor_remove_transmitter" android:contentDescription="@string/dex_stop_sensor_archer_remove_transmitter" android:paddingStart="32.0dip" android:paddingEnd="32.0dip" />
+</LinearLayout>

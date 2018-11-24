@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dexcom.cgm.activities.controls.DexBackButtonToolbar android:id="@id/title_settings_device_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:title="@string/dex_settings_device_info" style="@style/DexToolbar" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="?android:listDivider" android:splitMotionEvents="false" android:showDividers="middle">
+        <com.dexcom.cgm.activities.DexListNavView android:id="@id/settings_device_info_insertion_time" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/help_menu_text_3" app:listEndText="@string/help_menu_text_31" />
+        <com.dexcom.cgm.activities.DexListNavView android:id="@id/settings_device_info_last_calibration" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/help_menu_text_4" app:listEndText="@string/help_menu_text_31" />
+        <com.dexcom.cgm.activities.DexListNavView android:id="@id/settings_device_info_software_number" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/dex_settings_software_number" app:listEndText="@string/software_number" />
+        <com.dexcom.cgm.activities.DexListNavView android:id="@id/settings_device_info_software_revision" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/help_menu_text_6" app:listEndText="@string/dex_common_triple_dashes" />
+        <com.dexcom.cgm.activities.DexListNavView android:id="@id/settings_device_info_udi" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/help_menu_text_7" app:listEndText="@string/dex_common_triple_dashes" />
+    </LinearLayout>
+</LinearLayout>

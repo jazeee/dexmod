@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="?android:listDivider" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dexcom.cgm.activities.controls.DexBackButtonToolbar android:id="@id/help_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:title="@string/help_menu_text_39" style="@style/DexToolbar" />
+    <com.dexcom.cgm.activities.DexListNavView android:gravity="top" android:id="@id/safety_statements_cgm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClickCGMSafetyStatement" app:listTitle="@string/help_menu_text_45" app:listEndArrow="true" />
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/safety_statements_share" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClickShareSafetyStatement" app:listTitle="@string/help_menu_text_46" app:listEndArrow="true" />
+</LinearLayout>

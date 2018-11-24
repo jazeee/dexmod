@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/dex_white" android:paddingLeft="34.0dip" android:paddingRight="34.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/share_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:src="@drawable/g5splash_green_logo" android:layout_centerHorizontal="true" android:contentDescription="@string/app_name" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="16.0dip" android:layout_above="@id/dualButtonLayout" android:layout_below="@id/share_logo">
+        <TextView android:id="@id/termsPrivacyTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setup_wizard_comply_terms_privacy" style="@style/H2" />
+    </ScrollView>
+    <com.dexcom.cgm.activities.DualButton android:id="@id/dualButtonLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:textPositive="@string/setup_wizard_i_agree" app:textNegative="@string/setup_wizard_i_dont_agree" app:onClickPositive="onClickPositive" app:onClickNegative="onClickNegative" />
+</RelativeLayout>

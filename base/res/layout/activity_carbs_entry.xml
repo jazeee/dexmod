@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dexcom.cgm.activities.controls.DexBackButtonToolbar android:id="@id/title_events_entry_carbs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:title="@string/dex_event_entry_carbs_title" style="@style/DexToolbar" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <EditText android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/carbs_entry" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/dex_event_entry_carbs_hint" android:maxLength="3" android:inputType="number" android:paddingStart="0.0dip" android:paddingEnd="16.0dip" android:labelFor="@id/carbs_entry" style="@style/DexEditText" />
+        <com.dexcom.cgm.activities.DualButton android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" app:textPositive="@string/button_text_done" app:textNegative="@string/button_text_cancel" app:onClickPositive="onClickSave" app:onClickNegative="onClickCancel" />
+    </LinearLayout>
+</LinearLayout>

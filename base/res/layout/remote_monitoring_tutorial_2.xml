@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/dex_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dexcom.cgm.activities.controls.DexBackButtonToolbar android:id="@id/share_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:title="@string/share_screen_text_3" style="@style/DexToolbar" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="34.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="34.0dip" android:layout_below="@id/share_toolbar">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:layout_above="@id/dualButtonLayout" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:id="@id/share_follow_internet" android:layout_width="wrap_content" android:layout_height="135.0dip" android:layout_marginTop="-25.0dip" android:src="@drawable/sharer_to_follower_internet_connection" android:contentDescription="@string/share_screen_text_3" android:paddingStart="48.0dip" android:paddingEnd="0.0dip" />
+                <TextView android:id="@id/textView1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/share_screen_text_8" style="?dexH2" />
+                <TextView android:textStyle="bold" android:id="@id/textView2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/share_screen_text_9" style="?dexH2" />
+            </LinearLayout>
+        </ScrollView>
+        <com.dexcom.cgm.activities.DualButton android:id="@id/dualButtonLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:textPositive="@string/setup_wizard_next" app:onClickPositive="onClickPositive" />
+    </RelativeLayout>
+</RelativeLayout>

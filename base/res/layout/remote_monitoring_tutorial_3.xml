@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dexcom.cgm.activities.controls.DexBackButtonToolbar android:id="@id/share_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:title="@string/share_screen_text_10" style="@style/DexToolbar" />
+    <RelativeLayout android:id="@id/topLayout" android:layout_width="fill_parent" android:layout_height="180.0dip" android:layout_margin="16.0dip" android:layout_below="@id/share_toolbar">
+        <ImageView android:id="@id/sharing_logo_image" android:layout_width="200.0dip" android:layout_height="180.0dip" android:src="@drawable/share_mag" android:layout_centerHorizontal="true" android:contentDescription="@string/share_screen_text_10" android:layout_marginStart="20.0dip" android:layout_alignParentStart="true" />
+        <TextView android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:text="@string/share_screen_text_11" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_toEndOf="@id/sharing_logo_image" style="?dexH2" />
+        <TextView android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="48.0dip" android:text="@string/share_screen_text_12" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/sharing_logo_image" style="?dexH2" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="34.0dip" android:layout_marginRight="34.0dip" android:layout_below="@id/topLayout">
+        <ImageView android:id="@id/not_sharing_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:src="@drawable/ic_share_off_badge_1" android:layout_below="@id/textView3" android:contentDescription="@string/share_screen_text_10" android:layout_alignParentStart="true" />
+        <TextView android:id="@id/textView3" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/share_screen_text_13" android:layout_alignParentTop="true" android:layout_alignParentStart="true" style="?dexH2" />
+        <TextView android:id="@id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/share_screen_text_14" android:layout_below="@id/textView3" android:layout_marginStart="42.0dip" android:layout_marginEnd="0.0dip" style="?dexH2" />
+        <com.dexcom.cgm.activities.DualButton android:id="@id/view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:textPositive="@string/setup_wizard_next" app:onClickPositive="onClickPositive" />
+    </RelativeLayout>
+</RelativeLayout>

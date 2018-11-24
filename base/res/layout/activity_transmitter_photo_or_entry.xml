@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/dex_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dexcom.cgm.activities.controls.DexBackButtonToolbar android:id="@id/toolbar_transmitter_sn_scan" android:layout_width="fill_parent" android:layout_height="wrap_content" android:title="@string/setup_wizard_take_photo_barcode_repeat" style="@style/DexToolbar" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="34.0dip" android:layout_marginRight="34.0dip">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:layout_above="@id/dualButtonLayout" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Space android:layout_width="fill_parent" android:layout_height="32.0dip" />
+                <TextView android:id="@id/textView1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setup_wizard_use_android_photo_barcode" style="?dexH2" />
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/scan_tx_barcode" android:layout_width="275.0dip" android:layout_height="249.0dip" android:layout_marginTop="16.0dip" android:src="@drawable/scan_transmitter_barcode" android:contentDescription="@string/setup_wizard_take_photo_barcode_repeat" />
+            </LinearLayout>
+        </ScrollView>
+        <com.dexcom.cgm.activities.DualButton android:id="@id/dualButtonLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:textPositive="@string/setup_wizard_take_photo_repeat" app:textNegative="@string/setup_wizard_hand_enter_tx_sn" app:onClickPositive="onClickPositive" app:onClickNegative="onClickNegative" />
+    </RelativeLayout>
+</LinearLayout>

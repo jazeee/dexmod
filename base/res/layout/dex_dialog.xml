@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/info_dialog" android:background="@color/dex_white" android:padding="16.0dip" android:layout_width="320.0dip" android:layout_height="420.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="end" android:id="@id/dex_dialog_dismiss" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginBottom="16.0dip" android:src="@drawable/ic_close" android:contentDescription="@string/dex_common_close_dialog" />
+    <ScrollView android:orientation="vertical" android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/customContent" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <ViewStub android:layout_gravity="center_horizontal" android:id="@id/dualButtonLayout" android:layout="@layout/dual_button_control" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip" />
+</LinearLayout>

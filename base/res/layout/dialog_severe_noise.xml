@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_screen_error_text_22" style="?dexH2" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_screen_error_text_23" style="?dexH2" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_screen_error_text_24" style="?dexH2" />
+    <com.dexcom.cgm.activities.HelpTip android:id="@id/transmitter_insertion_help_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_screen_error_text_20" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_screen_error_text_25" style="?dexH2" />
+    <com.dexcom.cgm.activities.HelpTip android:id="@id/error_still_present_help_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_screen_error_text_26" />
+</LinearLayout>

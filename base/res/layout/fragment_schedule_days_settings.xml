@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/dualButtonLayout" android:layout_alignParentTop="true">
+        <TextView android:id="@id/id_schedule_days_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/side_margin_size" android:text="@string/schedule_days" android:labelFor="@id/start_time_edit_text" style="?dexH2" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="?android:listDivider" android:splitMotionEvents="false" android:showDividers="middle">
+                <com.dexcom.cgm.activities.DexListSwitchView android:id="@id/switch_schedule_day_sunday" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/schedule_day_sunday" app:titleAppiumID="id_schedule_sunday_title" app:switchAppiumID="id_schedule_sunday_switch" />
+                <com.dexcom.cgm.activities.DexListSwitchView android:id="@id/switch_schedule_day_monday" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/schedule_day_monday" app:titleAppiumID="id_schedule_monday_title" app:switchAppiumID="id_schedule_monday_switch" />
+                <com.dexcom.cgm.activities.DexListSwitchView android:id="@id/switch_schedule_day_tuesday" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/schedule_day_tuesday" app:titleAppiumID="id_schedule_tuesday_title" app:switchAppiumID="id_schedule_tuesday_switch" />
+                <com.dexcom.cgm.activities.DexListSwitchView android:id="@id/switch_schedule_day_wednesday" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/schedule_day_wednesday" app:titleAppiumID="id_schedule_wednesday_title" app:switchAppiumID="id_schedule_wednesday_switch" />
+                <com.dexcom.cgm.activities.DexListSwitchView android:id="@id/switch_schedule_day_thursday" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/schedule_day_thursday" app:titleAppiumID="id_schedule_thursday_title" app:switchAppiumID="id_schedule_thursday_switch" />
+                <com.dexcom.cgm.activities.DexListSwitchView android:id="@id/schedule_day_friday" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/schedule_day_friday" app:titleAppiumID="id_schedule_friday_title" app:switchAppiumID="id_schedule_friday_switch" />
+                <com.dexcom.cgm.activities.DexListSwitchView android:id="@id/schedule_day_saturday" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/schedule_day_saturday" app:titleAppiumID="id_schedule_saturday_title" app:switchAppiumID="id_schedule_saturday_switch" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <com.dexcom.cgm.activities.DualButton android:id="@id/dualButtonLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="34.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="34.0dip" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true" app:textPositive="@string/setup_wizard_next" app:textNegative="" app:onClickPositive="onSaveDays" app:onClickNegative="onClickNegative" />
+</RelativeLayout>

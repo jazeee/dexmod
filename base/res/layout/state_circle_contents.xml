@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/circle_linear_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="170.0dip" android:maxHeight="140.0dip" android:text="@string/main_screen_tap_for_first_bg" android:paddingStart="4.0dip" android:paddingEnd="4.0dip" style="?dexCircleText" />
+    <ImageView android:gravity="center" android:id="@id/textIconView" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:contentDescription="@string/dex_general_blank" />
+    <ImageView android:id="@id/meter_image" android:layout_width="27.0dip" android:layout_height="27.0dip" android:layout_marginTop="16.0dip" android:src="@drawable/ic_meter_badge_2_white" android:contentDescription="@string/dex_general_blank" />
+</LinearLayout>

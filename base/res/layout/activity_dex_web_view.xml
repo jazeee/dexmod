@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/dex_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.dexcom.cgm.activities.controls.DexBackButtonToolbar android:id="@id/title_webview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:title="@string/setup_wizard_safety" style="@style/DexToolbar" />
+    <WebView android:id="@id/webview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="8.0dip" android:layout_below="@id/title_webview" android:contentDescription="@string/help_menu_text_39" />
+    <com.dexcom.cgm.activities.ProgressBarCircularIndeterminate android:id="@id/webview_progressBar" android:visibility="invisible" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_centerInParent="true" />
+</RelativeLayout>

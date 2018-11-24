@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_meter_grey" android:id="@id/action_meter" android:orderInCategory="100" android:title="@string/main_screen_text_38" android:onClick="onClickMeter" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_event_entry" android:id="@id/action_event" android:orderInCategory="200" android:title="@string/main_screen_text_39" android:onClick="onClickEventEntry" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_share_off" android:id="@id/action_share" android:orderInCategory="300" android:title="@string/main_screen_text_43" android:onClick="onClickShare" android:showAsAction="always" />
+</menu>

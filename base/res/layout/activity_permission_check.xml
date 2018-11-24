@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/share_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:src="@drawable/g5splash_green_logo" android:layout_centerHorizontal="true" android:contentDescription="@string/app_name" />
+    <TextView android:id="@id/locationPremissionRationaleText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/locationPermissionActivity" android:layout_below="@id/share_logo" style="?dexH2" />
+    <com.dexcom.cgm.activities.DualButton android:id="@id/permissionCheckButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:textPositive="@string/ok" app:textNegative="" app:onClickPositive="onClickPositive" app:onClickNegative="onClickNegative" />
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/time_duration_descriptor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/activity_horizontal_margin" android:text="@string/dex_alerts_repeat" style="?dexH2" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/hours_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/activity_horizontal_margin" android:layout_weight="1.0">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share_screen_text_50" style="?dexH2" />
+            <com.dexcom.cgm.activities.controls.ConsistentNumberPicker android:id="@id/hour_picker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/minutes_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/activity_horizontal_margin" android:layout_weight="1.0">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share_screen_text_48" style="?dexH2" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.dexcom.cgm.activities.controls.ConsistentNumberPicker android:id="@id/minute_picker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+                <com.dexcom.cgm.activities.controls.ConsistentNumberPicker android:id="@id/minute_picker2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

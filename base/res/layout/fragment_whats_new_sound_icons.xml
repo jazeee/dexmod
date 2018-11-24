@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="34.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="34.0dip" android:layout_marginBottom="30.0dip" android:text="@string/whats_new_sound_icons" android:lineSpacingExtra="@dimen/setup_wizard_and_whats_new_line_spacing" style="?dexH2" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="34.0dip" android:layout_marginRight="34.0dip" android:text="@string/whats_new_title_sounds_on" style="?dexH2" />
+    <TableLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="34.0dip" android:layout_marginRight="34.0dip">
+        <TableRow android:gravity="center_vertical" android:layout_marginTop="8.0dip" android:layout_marginBottom="16.0dip">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:src="@drawable/ic_alerts_sound" style="?dexH2" />
+            <TextView android:gravity="center_vertical" android:id="@id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/whats_new_alerts" style="?dexH2" />
+        </TableRow>
+        <TableRow android:gravity="center_vertical" android:layout_marginTop="8.0dip" android:layout_marginBottom="16.0dip">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:src="@drawable/ic_alerts_scheduled_sound" style="?dexH2" />
+            <TextView android:gravity="center_vertical" android:id="@id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/whats_new_scheduled_alerts" style="?dexH2" />
+        </TableRow>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/whats_new_title_sounds_off" style="?dexH2" />
+        <TableRow android:gravity="center_vertical" android:layout_marginTop="8.0dip" android:layout_marginBottom="16.0dip">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:src="@drawable/ic_alerts_no_sound" style="?dexH2" />
+            <TextView android:gravity="center_vertical" android:id="@id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/whats_new_alerts" style="?dexH2" />
+        </TableRow>
+        <TableRow android:gravity="center_vertical" android:layout_marginTop="8.0dip" android:layout_marginBottom="16.0dip">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:src="@drawable/ic_alerts_scheduled_no_sound" style="?dexH2" />
+            <TextView android:gravity="center_vertical" android:id="@id/textView6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/whats_new_scheduled_alerts" style="?dexH2" />
+        </TableRow>
+        <TableRow android:gravity="top" android:layout_width="fill_parent" android:layout_marginTop="8.0dip" android:layout_marginBottom="16.0dip">
+            <ImageView android:layout_width="37.0dip" android:layout_height="37.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/ic_total_silence_icon" style="?dexH2" />
+            <TextView android:gravity="center_vertical" android:id="@id/textView7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/whats_new_total_silence_description" style="?dexH2" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dexcom.cgm.activities.controls.DexBackButtonToolbar android:id="@id/title_settings_transmitter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:title="@string/dex_common_transmitter" style="@style/DexToolbar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="?android:listDivider" android:splitMotionEvents="false" android:showDividers="middle">
+            <com.dexcom.cgm.activities.DexListNavView android:id="@id/settings_transmitter_pair_new" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:minHeight="72.0dip" android:onClick="onClickNavigate" app:listTitle="@string/dex_settings_pair_new" app:listEndArrow="true" />
+            <com.dexcom.cgm.activities.DexListNavView android:id="@id/settings_transmitter_sn" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/dex_settings_sn" app:listEndText="400000" />
+            <com.dexcom.cgm.activities.DexListNavView android:id="@id/settings_transmitter_ab" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/dex_settings_ab" app:listEndText="@string/dex_common_triple_dashes" />
+            <com.dexcom.cgm.activities.DexListNavView android:id="@id/settings_transmitter_activated_on" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/dex_settings_activated_on" app:listEndText="@string/dex_common_triple_dashes" />
+            <com.dexcom.cgm.activities.DexListNavView android:id="@id/settings_transmitter_firmware" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/dex_settings_firmware" app:listEndText="@string/dex_common_triple_dashes" />
+            <com.dexcom.cgm.activities.DexListNavView android:id="@id/settings_transmitter_software_number" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/dex_settings_software_number" app:listEndText="@string/dex_common_triple_dashes" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

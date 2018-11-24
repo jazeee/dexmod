@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/disk_space_full_text1" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" style="?dexH2" />
+    <TextView android:paddingTop="@dimen/double_newline_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/disk_space_freeing_step1_text" android:paddingStart="@dimen/numbered_list_indentation" android:paddingEnd="0.0dip" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" style="?dexH2" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/disk_space_freeing_step2_text" android:paddingStart="@dimen/numbered_list_indentation" android:paddingEnd="0.0dip" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" style="?dexH2" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/disk_space_freeing_step3_text" android:paddingStart="@dimen/numbered_list_indentation" android:paddingEnd="0.0dip" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" style="?dexH2" />
+    <TextView android:paddingTop="@dimen/double_newline_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/disk_space_full_text2" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" style="?dexH2" />
+</LinearLayout>

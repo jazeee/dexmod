@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/dex_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dexcom.cgm.activities.controls.DexBackButtonToolbar android:id="@id/webview_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:title="@string/dex_settings_enter_transmitter_sn" style="@style/DexToolbar" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <EditText android:gravity="center" android:layout_gravity="center" android:id="@id/transmitter_sn_entry1" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/dex_settings_enter_transmitter_sn_hint" android:maxLength="6" android:inputType="textVisiblePassword|textCapCharacters" style="@style/DexEditText" />
+        <com.dexcom.cgm.activities.HelpTip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setup_wizard_where_tx_sn" android:onClick="onClickHelpTip" />
+        <com.dexcom.cgm.activities.DualButton android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" app:textPositive="@string/button_text_save" app:textNegative="@string/button_text_cancel" app:onClickPositive="onClickSaveSN" app:onClickNegative="onClickGoBack" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.dexcom.cgm.activities.controls.DexBackButtonToolbar android:id="@id/toolbar_whats_new" android:layout_width="fill_parent" android:layout_height="wrap_content" android:title="@string/whats_new_important_notice_title" style="@style/DexToolbar" />
+        <FrameLayout android:id="@id/whats_new_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <com.dexcom.cgm.activities.CircleArray android:id="@id/circleArray" android:layout_width="fill_parent" android:layout_height="12.0dip" android:layout_marginTop="@dimen/activity_vertical_margin" android:layout_marginBottom="@dimen/activity_vertical_margin" android:layout_alignParentBottom="true" android:layout_marginStart="140.0dip" android:layout_marginEnd="140.0dip" app:numCircles="2" app:currentCircle="1" />
+</RelativeLayout>

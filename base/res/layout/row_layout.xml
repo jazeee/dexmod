@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/list_item_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="?dexListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="start" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/row_icon" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_help_blue" android:contentDescription="@string/main_screen_text_42" android:layout_marginStart="8.0dip" android:layout_marginEnd="16.0dip" />
+        <TextView android:gravity="start|center" android:layout_gravity="start" android:id="@id/start_text" android:layout_width="wrap_content" android:layout_height="48.0dip" android:text="@string/dex_general_blank" style="?dexH2" />
+    </LinearLayout>
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:gravity="end|center" android:id="@id/end_text" android:layout_width="wrap_content" android:layout_height="48.0dip" android:text="@string/sound_alert_text" style="?dexH2" />
+        <ImageView android:id="@id/row_image" android:layout_width="24.0dip" android:layout_height="48.0dip" android:src="@drawable/thin_arrow_right" android:contentDescription="@string/main_screen_text_42" android:layout_marginStart="8.0dip" />
+    </LinearLayout>
+</LinearLayout>

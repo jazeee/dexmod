@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dexcom.cgm.activities.controls.DexBackButtonToolbar android:id="@id/title_urgent_low_alarm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:title="@string/urgent_low_glucose_alarm_text" style="@style/DexToolbar" />
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/urgent_low_alarm_notify" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/dex_alerts_notify_me_below" app:listEndText="@string/share_mgdl" />
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/urgent_low_alarm_repeat" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" app:listTitle="@string/dex_alerts_repeat" app:listEndText="@string/alert_settings_text_every_30_mins" />
+    <TextView android:id="@id/urgent_low_alarm_text" android:background="@color/dex_transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/urgent_low_alarm_message_text" android:layout_marginStart="@dimen/side_margin_size" android:layout_marginEnd="@dimen/side_margin_size" style="?dexH3" />
+    <Space android:layout_width="fill_parent" android:layout_height="32.0dip" />
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/urgent_low_alarm_sound" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="50.0dip" android:onClick="onClickSoundSettings" app:listTitle="@string/sound_alert_text" app:listEndText="Urgent Low" app:listEndArrow="true" />
+</LinearLayout>

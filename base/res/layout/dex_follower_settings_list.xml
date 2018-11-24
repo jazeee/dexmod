@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/parentLayout" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/review_allow_trend_graph_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/share_screen_text_35" app:listEndText="@string/alert_text_on" />
+    <Space android:id="@id/review_allow_trend_graph_view_border" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/review_urgent_low" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/urgent_low_alarm_text" app:listEndText="@string/alert_text_on" />
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/review_urgent_low_threshold" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/share_screen_text_39" app:listEndText="@string/share_mgdl" />
+    <Space android:layout_width="fill_parent" android:layout_height="5.0dip" />
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/review_low" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/user_low_alert_text" app:listEndText="@string/alert_text_off" />
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/review_low_threshold" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/share_screen_text_39" app:listEndText="@string/share_mgdl" />
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/review_low_delay" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/dex_alerts_for_more_than" app:listEndText="@string/dex_share_hours" />
+    <Space android:layout_width="fill_parent" android:layout_height="5.0dip" />
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/review_high" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/user_high_alert_text" app:listEndText="@string/alert_text_off" />
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/review_high_threshold" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/share_screen_text_45" app:listEndText="@string/share_mgdl" />
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/review_high_delay" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/dex_alerts_for_more_than" app:listEndText="@string/dex_share_hours" />
+    <Space android:layout_width="fill_parent" android:layout_height="5.0dip" />
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/review_no_data" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/share_screen_text_46" app:listEndText="@string/alert_text_off" />
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/review_no_data_delay" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/dex_alerts_for_more_than" app:listEndText="@string/dex_share_hours" />
+</LinearLayout>

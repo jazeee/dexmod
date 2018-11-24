@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dexcom.cgm.activities.controls.DexBackButtonToolbar android:id="@id/title_stop_sensor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:title="@string/main_screen_text_29" style="@style/DexToolbar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/side_margin_size" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0sp" android:typeface="normal" android:gravity="start" android:id="@id/stopSensorTextView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:text="@string/main_screen_text_30" />
+            <TextView android:textSize="18.0sp" android:typeface="normal" android:gravity="start" android:id="@id/stopSensorTextView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:text="@string/main_screen_text_31" />
+            <com.dexcom.cgm.activities.HelpTip android:id="@id/sensor_removal_help_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_screen_text_32" android:onClick="onClickHelpTipRemoval" app:iconContentDescription="@string/sensor_failed_help1" />
+            <com.dexcom.cgm.activities.HelpTip android:id="@id/sensor_insertion_help_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_screen_text_33" android:onClick="onClickHelpTipInsertion" app:iconContentDescription="@string/sensor_failed_help2" />
+        </LinearLayout>
+    </ScrollView>
+    <com.dexcom.cgm.activities.DualButton android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginStart="@dimen/side_margin_size" android:layout_marginEnd="@dimen/side_margin_size" app:textPositive="@string/main_screen_text_34" app:textNegative="@string/button_text_cancel" app:onClickPositive="onClickStopSession" app:onClickNegative="onClickCancel" />
+</LinearLayout>

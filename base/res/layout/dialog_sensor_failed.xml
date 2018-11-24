@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_screen_error_text_40" style="?dexH2" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_screen_error_text_36" style="?dexH2" />
+    <com.dexcom.cgm.activities.HelpTip android:id="@id/sensor_removal_help_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_screen_text_32" />
+    <com.dexcom.cgm.activities.HelpTip android:id="@id/email_technical_support_help_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_screen_error_text_41" />
+</LinearLayout>

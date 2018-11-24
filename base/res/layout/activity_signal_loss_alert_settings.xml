@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dexcom.cgm.activities.controls.DexBackButtonToolbar android:id="@id/title_signal_loss_alert" android:layout_width="fill_parent" android:layout_height="wrap_content" android:title="@string/signal_loss_alert_text" style="@style/DexToolbar" />
+    <com.dexcom.cgm.activities.DexListSwitchView android:id="@id/signal_loss_alert_switch" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClickAlert" android:contentDescription="@string/signal_loss_alert_text" app:listTitle="@string/signal_loss_alert_text" />
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/signal_loss_alert_message_text" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    <Space android:layout_width="fill_parent" android:layout_height="32.0dip" />
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/alert_notification_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:onClick="onClickNotifyForMoreThan" app:listTitle="@string/dex_alerts_for_more_than" app:listEndText="30 minutes" app:listEndArrow="true" />
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/alert_sound_settings" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:onClick="onClickSound" app:listTitle="@string/sound_alert_text" app:listEndText="Signal Loss Alert" app:listEndArrow="true" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/setupParentLayout" android:background="@color/dex_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dexcom.cgm.activities.controls.DexBackButtonToolbar android:id="@id/webview_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:title="@string/setup_wizard_bluetooth" style="@style/DexToolbar" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="34.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="34.0dip" android:layout_below="@id/webview_toolbar">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:layout_above="@id/dualButtonLayout" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <TextView android:id="@id/bluetooth_check" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setup_wizard_app_check_bluetooth_on" style="?dexH2" />
+        </ScrollView>
+        <com.dexcom.cgm.activities.DualButton android:id="@id/dualButtonLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:textPositive="@string/setup_wizard_next" app:textNegative="" app:onClickPositive="onClickTurnOnBluetooth" app:onClickNegative="onClickNegative" />
+    </RelativeLayout>
+</RelativeLayout>

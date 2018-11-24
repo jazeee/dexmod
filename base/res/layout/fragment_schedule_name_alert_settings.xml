@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="24.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/id_schedule_name_enter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/schedule_name_help_text" style="?dexH2" />
+    <com.dexcom.cgm.activities.controls.DexEditText android:layout_gravity="center_vertical" android:id="@id/id_schedule_name_enter" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:hint="@string/schedule_name_edittext_hint" android:maxLines="1" android:lines="1" android:maxLength="10" android:inputType="textCapWords" android:imeOptions="actionDone" />
+    <TextView android:id="@id/id_schedule_name_enter_text_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/schedule_name_help_text2" style="?dexH2" />
+    <com.dexcom.cgm.activities.DualButton android:id="@id/dualButtonLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="50.0dip" android:layout_marginRight="18.0dip" app:textPositive="@string/setup_wizard_next" app:textNegative="" app:onClickPositive="onSaveName" app:onClickNegative="onClickNegative" />
+</LinearLayout>

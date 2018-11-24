@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share_screen_settings_text_15" style="?dexH2" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share_screen_settings_text_16" style="?dexH2" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share_screen_settings_text_17" style="?dexH2" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share_screen_settings_text_18" style="?dexH2" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share_screen_settings_text_19" style="?dexH2" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share_screen_settings_text_20" style="?dexH2" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share_screen_settings_text_21" style="?dexH2" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share_screen_settings_text_22" style="?dexH2" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share_screen_settings_text_23" style="?dexH2" />
+</LinearLayout>

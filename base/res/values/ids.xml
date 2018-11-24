@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="action_bar_activity_content" />
+    <item type="id" name="action_bar_spinner" />
+    <item type="id" name="action_menu_divider" />
+    <item type="id" name="action_menu_presenter" />
+    <item type="id" name="home" />
+    <item type="id" name="id_always_sound_endtext" />
+    <item type="id" name="id_always_sound_switch" />
+    <item type="id" name="id_always_sound_title" />
+    <item type="id" name="id_default_always_sound_endtext" />
+    <item type="id" name="id_default_always_sound_switch" />
+    <item type="id" name="id_default_always_sound_title" />
+    <item type="id" name="id_default_fall_rate_endtext" />
+    <item type="id" name="id_default_fall_rate_title" />
+    <item type="id" name="id_default_high_endtext" />
+    <item type="id" name="id_default_high_title" />
+    <item type="id" name="id_default_low_alert_title" />
+    <item type="id" name="id_default_low_endtext" />
+    <item type="id" name="id_default_rise_rate_endtext" />
+    <item type="id" name="id_default_rise_rate_title" />
+    <item type="id" name="id_default_signal_loss_endtext" />
+    <item type="id" name="id_default_signal_loss_title" />
+    <item type="id" name="id_default_urgent_low_endtext" />
+    <item type="id" name="id_default_urgent_low_title" />
+    <item type="id" name="id_persistent_notification_endText" />
+    <item type="id" name="id_persistent_notification_title" />
+    <item type="id" name="id_schedule_always_sound_switch" />
+    <item type="id" name="id_schedule_always_sound_switch_endtext" />
+    <item type="id" name="id_schedule_always_sound_switch_title" />
+    <item type="id" name="id_schedule_days_endtext" />
+    <item type="id" name="id_schedule_days_title" />
+    <item type="id" name="id_schedule_enabled_endtext" />
+    <item type="id" name="id_schedule_enabled_switch" />
+    <item type="id" name="id_schedule_enabled_title" />
+    <item type="id" name="id_schedule_fall_rate_endtext" />
+    <item type="id" name="id_schedule_fall_rate_title" />
+    <item type="id" name="id_schedule_friday_switch" />
+    <item type="id" name="id_schedule_friday_title" />
+    <item type="id" name="id_schedule_high_endtext" />
+    <item type="id" name="id_schedule_high_title" />
+    <item type="id" name="id_schedule_low_endtext" />
+    <item type="id" name="id_schedule_low_title" />
+    <item type="id" name="id_schedule_monday_switch" />
+    <item type="id" name="id_schedule_monday_title" />
+    <item type="id" name="id_schedule_name_endtext" />
+    <item type="id" name="id_schedule_name_title" />
+    <item type="id" name="id_schedule_rise_rate_endtext" />
+    <item type="id" name="id_schedule_rise_rate_title" />
+    <item type="id" name="id_schedule_saturday_switch" />
+    <item type="id" name="id_schedule_saturday_title" />
+    <item type="id" name="id_schedule_sunday_switch" />
+    <item type="id" name="id_schedule_sunday_title" />
+    <item type="id" name="id_schedule_thursday_switch" />
+    <item type="id" name="id_schedule_thursday_title" />
+    <item type="id" name="id_schedule_time_endtext" />
+    <item type="id" name="id_schedule_time_title" />
+    <item type="id" name="id_schedule_tuesday_switch" />
+    <item type="id" name="id_schedule_tuesday_title" />
+    <item type="id" name="id_schedule_urgent_low_endtext" />
+    <item type="id" name="id_schedule_urgent_low_title" />
+    <item type="id" name="id_schedule_wednesday_switch" />
+    <item type="id" name="id_schedule_wednesday_title" />
+    <item type="id" name="id_summary_always_sound_endtext" />
+    <item type="id" name="id_summary_always_sound_title" />
+    <item type="id" name="id_summary_days_endtext" />
+    <item type="id" name="id_summary_days_title" />
+    <item type="id" name="id_summary_high_endText" />
+    <item type="id" name="id_summary_high_title" />
+    <item type="id" name="id_summary_low_endText" />
+    <item type="id" name="id_summary_low_title" />
+    <item type="id" name="id_summary_name_endtext" />
+    <item type="id" name="id_summary_name_title" />
+    <item type="id" name="id_summary_time_endtext" />
+    <item type="id" name="id_summary_time_title" />
+    <item type="id" name="item_touch_helper_previous_elevation" />
+    <item type="id" name="progress_circular" />
+    <item type="id" name="progress_horizontal" />
+    <item type="id" name="split_action_bar" />
+    <item type="id" name="up" />
+    <item type="id" name="view_offset_helper" />
+    <item type="id" name="action_bar_title">false</item>
+    <item type="id" name="action_bar_subtitle">false</item>
+    <item type="id" name="action_mode_close_button">false</item>
+    <item type="id" name="activity_chooser_view_content">false</item>
+    <item type="id" name="expand_activities_button">false</item>
+    <item type="id" name="image">false</item>
+    <item type="id" name="default_activity_button">false</item>
+    <item type="id" name="list_item">false</item>
+    <item type="id" name="icon">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="buttonPanel">false</item>
+    <item type="id" name="spacer">false</item>
+    <item type="id" name="parentPanel">false</item>
+    <item type="id" name="topPanel">false</item>
+    <item type="id" name="title_template">false</item>
+    <item type="id" name="alertTitle">false</item>
+    <item type="id" name="contentPanel">false</item>
+    <item type="id" name="scrollIndicatorUp">false</item>
+    <item type="id" name="scrollView">false</item>
+    <item type="id" name="textSpacerNoButtons">false</item>
+    <item type="id" name="scrollIndicatorDown">false</item>
+    <item type="id" name="customPanel">false</item>
+    <item type="id" name="custom">false</item>
+    <item type="id" name="expanded_menu">false</item>
+    <item type="id" name="checkbox">false</item>
+    <item type="id" name="shortcut">false</item>
+    <item type="id" name="radio">false</item>
+    <item type="id" name="action_bar_root">false</item>
+    <item type="id" name="action_mode_bar_stub">false</item>
+    <item type="id" name="action_mode_bar">false</item>
+    <item type="id" name="decor_content_parent">false</item>
+    <item type="id" name="action_bar_container">false</item>
+    <item type="id" name="action_bar">false</item>
+    <item type="id" name="action_context_bar">false</item>
+    <item type="id" name="edit_query">false</item>
+    <item type="id" name="search_bar">false</item>
+    <item type="id" name="search_badge">false</item>
+    <item type="id" name="search_button">false</item>
+    <item type="id" name="search_edit_frame">false</item>
+    <item type="id" name="search_mag_icon">false</item>
+    <item type="id" name="search_plate">false</item>
+    <item type="id" name="search_src_text">false</item>
+    <item type="id" name="search_close_btn">false</item>
+    <item type="id" name="submit_area">false</item>
+    <item type="id" name="search_go_btn">false</item>
+    <item type="id" name="search_voice_btn">false</item>
+    <item type="id" name="select_dialog_listview">false</item>
+    <item type="id" name="accountParentLayout">false</item>
+    <item type="id" name="title_dexcom_account">false</item>
+    <item type="id" name="account_imageView">false</item>
+    <item type="id" name="textView11">false</item>
+    <item type="id" name="user_name_editText">false</item>
+    <item type="id" name="user_email_editText">false</item>
+    <item type="id" name="progressBar">false</item>
+    <item type="id" name="title_alerts">false</item>
+    <item type="id" name="default_always_sound">false</item>
+    <item type="id" name="urgent_low_alarm">false</item>
+    <item type="id" name="user_low_alert">false</item>
+    <item type="id" name="user_high_alert">false</item>
+    <item type="id" name="rise_rate_alert">false</item>
+    <item type="id" name="fall_rate_alert">false</item>
+    <item type="id" name="signal_loss_alert">false</item>
+    <item type="id" name="schedule_enabled">false</item>
+    <item type="id" name="schedule_always_sound">false</item>
+    <item type="id" name="settings_schedule_name">false</item>
+    <item type="id" name="settings_schedule_time">false</item>
+    <item type="id" name="settings_schedule_days">false</item>
+    <item type="id" name="settings_schedule_urgent_low">false</item>
+    <item type="id" name="settings_schedule_low">false</item>
+    <item type="id" name="settings_schedule_high">false</item>
+    <item type="id" name="settings_schedule_rise_rate">false</item>
+    <item type="id" name="settings_schedule_fall_rate">false</item>
+    <item type="id" name="alert_schedule_description">false</item>
+    <item type="id" name="persistent_notification_space">false</item>
+    <item type="id" name="settings_persistent_notifications">false</item>
+    <item type="id" name="reset_alert_settings">false</item>
+    <item type="id" name="screen_app_compatability">false</item>
+    <item type="id" name="compat_text_heading">false</item>
+    <item type="id" name="compat_text_message">false</item>
+    <item type="id" name="appUpgradeButton">false</item>
+    <item type="id" name="continueToApp">false</item>
+    <item type="id" name="moreInfoButton">false</item>
+    <item type="id" name="splash_copyright">false</item>
+    <item type="id" name="scanParentLayout">false</item>
+    <item type="id" name="webview_toolbar">false</item>
+    <item type="id" name="camera">false</item>
+    <item type="id" name="left_bracket">false</item>
+    <item type="id" name="right_bracket">false</item>
+    <item type="id" name="photo_prompt">false</item>
+    <item type="id" name="button_holder">false</item>
+    <item type="id" name="cancel_photo">false</item>
+    <item type="id" name="toolbar">false</item>
+    <item type="id" name="fax_billing">false</item>
+    <item type="id" name="title_events_entry_carbs">false</item>
+    <item type="id" name="carbs_entry">false</item>
+    <item type="id" name="password_reentry_username_text">false</item>
+    <item type="id" name="password_reentry_field">false</item>
+    <item type="id" name="login_progressBar">false</item>
+    <item type="id" name="login_dual_button">false</item>
+    <item type="id" name="title_contact_dexcom">false</item>
+    <item type="id" name="contact_dexcom_sales">false</item>
+    <item type="id" name="contact_dexcom_technical">false</item>
+    <item type="id" name="contact_dexcom_training">false</item>
+    <item type="id" name="contact_dexcom_billing">false</item>
+    <item type="id" name="screen_demo_dialog_list">false</item>
+    <item type="id" name="dialog_list">false</item>
+    <item type="id" name="screen_demo_notification_list">false</item>
+    <item type="id" name="notification_list">false</item>
+    <item type="id" name="title_webview">false</item>
+    <item type="id" name="webview">false</item>
+    <item type="id" name="webview_progressBar">false</item>
+    <item type="id" name="title_events_entry">false</item>
+    <item type="id" name="dex_event_entry_dual_button_layout">false</item>
+    <item type="id" name="dex_event_entry_dual_button_control">false</item>
+    <item type="id" name="insulin_entry">false</item>
+    <item type="id" name="exercise_entry">false</item>
+    <item type="id" name="health_entry">false</item>
+    <item type="id" name="event_time">false</item>
+    <item type="id" name="title_events_entry_exercise">false</item>
+    <item type="id" name="exercise_intensity_text">false</item>
+    <item type="id" name="exercise_intensity_light">false</item>
+    <item type="id" name="exercise_intensity_medium">false</item>
+    <item type="id" name="exercise_intensity_heavy">false</item>
+    <item type="id" name="exercise_duration">false</item>
+    <item type="id" name="title_fall_rate_alert">false</item>
+    <item type="id" name="fall_rate_alert_switch">false</item>
+    <item type="id" name="alert_notification_text">false</item>
+    <item type="id" name="alert_sound_settings">false</item>
+    <item type="id" name="faq_fragment_container">false</item>
+    <item type="id" name="title_faq">false</item>
+    <item type="id" name="faq_list_item">false</item>
+    <item type="id" name="faq_faqList">false</item>
+    <item type="id" name="faq_progressBar">false</item>
+    <item type="id" name="notification_settings">false</item>
+    <item type="id" name="urgent_low_alert_switch">false</item>
+    <item type="id" name="urgent_low_threshold">false</item>
+    <item type="id" name="low_alert_switch">false</item>
+    <item type="id" name="low_threshold">false</item>
+    <item type="id" name="low_delay">false</item>
+    <item type="id" name="high_alert_switch">false</item>
+    <item type="id" name="high_threshold">false</item>
+    <item type="id" name="high_delay">false</item>
+    <item type="id" name="no_data_alert_switch">false</item>
+    <item type="id" name="no_data_delay">false</item>
+    <item type="id" name="circleArray">false</item>
+    <item type="id" name="follower_name_field">false</item>
+    <item type="id" name="follower_email_field">false</item>
+    <item type="id" name="follower_confirm_email_field">false</item>
+    <item type="id" name="here_is_the_summary">false</item>
+    <item type="id" name="follower_settings_list">false</item>
+    <item type="id" name="foreground">false</item>
+    <item type="id" name="trend_graph_access">false</item>
+    <item type="id" name="trend_graph_access_switch">false</item>
+    <item type="id" name="trend_graph_denial">false</item>
+    <item type="id" name="title_events_entry_health">false</item>
+    <item type="id" name="health_illness">false</item>
+    <item type="id" name="health_stress">false</item>
+    <item type="id" name="health_feel_high">false</item>
+    <item type="id" name="health_feel_low">false</item>
+    <item type="id" name="health_cycle">false</item>
+    <item type="id" name="health_alcohol">false</item>
+    <item type="id" name="help_toolbar">false</item>
+    <item type="id" name="help_whats_new">false</item>
+    <item type="id" name="help_setup_wizard">false</item>
+    <item type="id" name="help_safety_statements">false</item>
+    <item type="id" name="help_user_guide">false</item>
+    <item type="id" name="help_videos">false</item>
+    <item type="id" name="help_faq">false</item>
+    <item type="id" name="help_contact_dexcom">false</item>
+    <item type="id" name="help_about">false</item>
+    <item type="id" name="help_about_version">false</item>
+    <item type="id" name="help_about_legal">false</item>
+    <item type="id" name="help_about_system_compatibility">false</item>
+    <item type="id" name="help_about_copyright">false</item>
+    <item type="id" name="legal_tou">false</item>
+    <item type="id" name="legal_pp">false</item>
+    <item type="id" name="safety_statements_cgm">false</item>
+    <item type="id" name="safety_statements_share">false</item>
+    <item type="id" name="videos_sensor_insertion">false</item>
+    <item type="id" name="videos_transmitter_attachment">false</item>
+    <item type="id" name="videos_treatment_decisions">false</item>
+    <item type="id" name="title_events_entry_insulin">false</item>
+    <item type="id" name="fullscreen_content_controls">false</item>
+    <item type="id" name="splash_screen_background">false</item>
+    <item type="id" name="splash_screen_header">false</item>
+    <item type="id" name="splash_screen_header2">false</item>
+    <item type="id" name="splash_screen2_image1a">false</item>
+    <item type="id" name="splash_screen1_image1">false</item>
+    <item type="id" name="splash_screen1_image2">false</item>
+    <item type="id" name="wife_at_home">false</item>
+    <item type="id" name="splash_screen_footer">false</item>
+    <item type="id" name="tour_text_1">false</item>
+    <item type="id" name="tour_text_2">false</item>
+    <item type="id" name="tour_text_3">false</item>
+    <item type="id" name="tour_text_4">false</item>
+    <item type="id" name="circles">false</item>
+    <item type="id" name="circle_1">false</item>
+    <item type="id" name="circle_2">false</item>
+    <item type="id" name="circle_3">false</item>
+    <item type="id" name="circle_4">false</item>
+    <item type="id" name="tour_login">false</item>
+    <item type="id" name="splash_version">false</item>
+    <item type="id" name="followers_toolbar">false</item>
+    <item type="id" name="content">false</item>
+    <item type="id" name="followers">false</item>
+    <item type="id" name="followers_text">false</item>
+    <item type="id" name="trend">false</item>
+    <item type="id" name="legal_fragment_container">false</item>
+    <item type="id" name="parent_layout">false</item>
+    <item type="id" name="dex_g5_mobile">false</item>
+    <item type="id" name="login_username_field">false</item>
+    <item type="id" name="login_password_field">false</item>
+    <item type="id" name="login_forgot_username">false</item>
+    <item type="id" name="login_forgot_password">false</item>
+    <item type="id" name="title_meter_entry">false</item>
+    <item type="id" name="meter_entry">false</item>
+    <item type="id" name="share_logo">false</item>
+    <item type="id" name="locationPremissionRationaleText">false</item>
+    <item type="id" name="permissionCheckButton">false</item>
+    <item type="id" name="title_persistent_notification_settings">false</item>
+    <item type="id" name="persistent_notifications_switch">false</item>
+    <item type="id" name="settings_show_persistent_notifications">false</item>
+    <item type="id" name="title_rise_rate_alert">false</item>
+    <item type="id" name="rise_rate_alert_switch">false</item>
+    <item type="id" name="safety_fragment_container">false</item>
+    <item type="id" name="fax_salesSupport">false</item>
+    <item type="id" name="title_days_settings">false</item>
+    <item type="id" name="id_schedule_days_text">false</item>
+    <item type="id" name="start_time_edit_text">false</item>
+    <item type="id" name="switch_schedule_day_sunday">false</item>
+    <item type="id" name="switch_schedule_day_monday">false</item>
+    <item type="id" name="switch_schedule_day_tuesday">false</item>
+    <item type="id" name="switch_schedule_day_wednesday">false</item>
+    <item type="id" name="switch_schedule_day_thursday">false</item>
+    <item type="id" name="schedule_day_friday">false</item>
+    <item type="id" name="schedule_day_saturday">false</item>
+    <item type="id" name="title_name_settings">false</item>
+    <item type="id" name="id_schedule_name_enter_text">false</item>
+    <item type="id" name="id_schedule_name_enter">false</item>
+    <item type="id" name="toolbar_alert_schedule">false</item>
+    <item type="id" name="schedule_fragment_container">false</item>
+    <item type="id" name="title_end_time">false</item>
+    <item type="id" name="id_start_time_set_text">false</item>
+    <item type="id" name="id_start_time_picker">false</item>
+    <item type="id" name="id_stop_time_set_text">false</item>
+    <item type="id" name="id_stop_time_picker">false</item>
+    <item type="id" name="dualButtonLayout">false</item>
+    <item type="id" name="title_settings">false</item>
+    <item type="id" name="settings_transmitter">false</item>
+    <item type="id" name="settings_device_info">false</item>
+    <item type="id" name="settings_health">false</item>
+    <item type="id" name="settings_graph_height">false</item>
+    <item type="id" name="settings_dexcom_account">false</item>
+    <item type="id" name="title_settings_device_info">false</item>
+    <item type="id" name="settings_device_info_insertion_time">false</item>
+    <item type="id" name="settings_device_info_last_calibration">false</item>
+    <item type="id" name="settings_device_info_software_number">false</item>
+    <item type="id" name="settings_device_info_software_revision">false</item>
+    <item type="id" name="settings_device_info_udi">false</item>
+    <item type="id" name="title_settings_graph_height">false</item>
+    <item type="id" name="settings_graph_height_300_mgdl">false</item>
+    <item type="id" name="settings_graph_height_400_mgdl">false</item>
+    <item type="id" name="settings_graph_height_text_desc">false</item>
+    <item type="id" name="title_settings_transmitter">false</item>
+    <item type="id" name="settings_transmitter_pair_new">false</item>
+    <item type="id" name="settings_transmitter_sn">false</item>
+    <item type="id" name="settings_transmitter_ab">false</item>
+    <item type="id" name="settings_transmitter_activated_on">false</item>
+    <item type="id" name="settings_transmitter_firmware">false</item>
+    <item type="id" name="settings_transmitter_software_number">false</item>
+    <item type="id" name="startup_wizard_fragment_container">false</item>
+    <item type="id" name="shareFragmentContainer">false</item>
+    <item type="id" name="parentLayout">false</item>
+    <item type="id" name="nickname_edit_text">false</item>
+    <item type="id" name="follower_email">false</item>
+    <item type="id" name="allow_trend_view_row">false</item>
+    <item type="id" name="follower_controls_notification_settings">false</item>
+    <item type="id" name="toggle_sharing_button">false</item>
+    <item type="id" name="share_pull_to_refresh">false</item>
+    <item type="id" name="share_pull_to_refresh_container">false</item>
+    <item type="id" name="sharing_toggle_view_row">false</item>
+    <item type="id" name="textView9">false</item>
+    <item type="id" name="share_toggle">false</item>
+    <item type="id" name="share_overall_status_image">false</item>
+    <item type="id" name="share_individual_status_image">false</item>
+    <item type="id" name="help_tip">false</item>
+    <item type="id" name="add_follower_button">false</item>
+    <item type="id" name="followers_list">false</item>
+    <item type="id" name="title_health">false</item>
+    <item type="id" name="shealthState">false</item>
+    <item type="id" name="textView1">false</item>
+    <item type="id" name="doesG5Post">false</item>
+    <item type="id" name="toChangeShealth">false</item>
+    <item type="id" name="shealthList">false</item>
+    <item type="id" name="dex_list_end_arrow">false</item>
+    <item type="id" name="dex_list_title">false</item>
+    <item type="id" name="shealth_dual">false</item>
+    <item type="id" name="title_signal_loss_alert">false</item>
+    <item type="id" name="signal_loss_alert_switch">false</item>
+    <item type="id" name="title_sounds">false</item>
+    <item type="id" name="soundsList">false</item>
+    <item type="id" name="title_stop_sensor">false</item>
+    <item type="id" name="stopSensorTextView1">false</item>
+    <item type="id" name="stopSensorTextView2">false</item>
+    <item type="id" name="sensor_removal_help_tip">false</item>
+    <item type="id" name="sensor_insertion_help_tip">false</item>
+    <item type="id" name="support_fragment_container">false</item>
+    <item type="id" name="toolbar_transmitter_sn_scan">false</item>
+    <item type="id" name="scan_tx_barcode">false</item>
+    <item type="id" name="title_transmitter_sn_entry">false</item>
+    <item type="id" name="transmitter_sn_entry">false</item>
+    <item type="id" name="drawer_layout">false</item>
+    <item type="id" name="toolbar_trend">false</item>
+    <item type="id" name="cgmCircle">false</item>
+    <item type="id" name="alertSoundStatus">false</item>
+    <item type="id" name="alert_sound_icon_tooltip">false</item>
+    <item type="id" name="left_drawer">false</item>
+    <item type="id" name="menu_title">false</item>
+    <item type="id" name="stop_sensor_list_item">false</item>
+    <item type="id" name="title_urgent_low_alarm">false</item>
+    <item type="id" name="urgent_low_alarm_notify">false</item>
+    <item type="id" name="urgent_low_alarm_repeat">false</item>
+    <item type="id" name="urgent_low_alarm_text">false</item>
+    <item type="id" name="urgent_low_alarm_sound">false</item>
+    <item type="id" name="horizontal_userguide_progressbar">false</item>
+    <item type="id" name="percent_text">false</item>
+    <item type="id" name="title_help">false</item>
+    <item type="id" name="title_high_glucose_alert">false</item>
+    <item type="id" name="alert_repeat_text">false</item>
+    <item type="id" name="title_user_low_alert">false</item>
+    <item type="id" name="user_low_alert_switch">false</item>
+    <item type="id" name="user_low_alert_notification">false</item>
+    <item type="id" name="user_low_alert_repeat">false</item>
+    <item type="id" name="user_low_alert_sound">false</item>
+    <item type="id" name="videoView">false</item>
+    <item type="id" name="videos_fragment_container">false</item>
+    <item type="id" name="toolbar_whats_new">false</item>
+    <item type="id" name="whats_new_fragment_container">false</item>
+    <item type="id" name="animatedWrapperContainer">false</item>
+    <item type="id" name="alert_sound_tooltip_text">false</item>
+    <item type="id" name="dex_dialog_text">false</item>
+    <item type="id" name="dex_dialog_text2">false</item>
+    <item type="id" name="dex_dialog_text3">false</item>
+    <item type="id" name="dex_dialog_text4">false</item>
+    <item type="id" name="done_cancel_bar">false</item>
+    <item type="id" name="crop_image">false</item>
+    <item type="id" name="btn_cancel">false</item>
+    <item type="id" name="btn_done">false</item>
+    <item type="id" name="dialog_list_item">false</item>
+    <item type="id" name="dialog_list_item_text">false</item>
+    <item type="id" name="notification_list_item">false</item>
+    <item type="id" name="notification_list_item_text">false</item>
+    <item type="id" name="snackbar_text">false</item>
+    <item type="id" name="snackbar_action">false</item>
+    <item type="id" name="navigation_header_container">false</item>
+    <item type="id" name="design_navigation_view">false</item>
+    <item type="id" name="design_menu_item_text">false</item>
+    <item type="id" name="design_menu_item_action_area_stub">false</item>
+    <item type="id" name="design_menu_item_action_area">false</item>
+    <item type="id" name="info_dialog">false</item>
+    <item type="id" name="dex_dialog_dismiss">false</item>
+    <item type="id" name="customContent">false</item>
+    <item type="id" name="review_allow_trend_graph_view">false</item>
+    <item type="id" name="review_allow_trend_graph_view_border">false</item>
+    <item type="id" name="review_urgent_low">false</item>
+    <item type="id" name="review_urgent_low_threshold">false</item>
+    <item type="id" name="review_low">false</item>
+    <item type="id" name="review_low_threshold">false</item>
+    <item type="id" name="review_low_delay">false</item>
+    <item type="id" name="review_high">false</item>
+    <item type="id" name="review_high_threshold">false</item>
+    <item type="id" name="review_high_delay">false</item>
+    <item type="id" name="review_no_data">false</item>
+    <item type="id" name="review_no_data_delay">false</item>
+    <item type="id" name="dex_list_end_text">false</item>
+    <item type="id" name="dex_list_help_icon">false</item>
+    <item type="id" name="dex_list_edit_title">false</item>
+    <item type="id" name="dex_list_edit_text">false</item>
+    <item type="id" name="dex_list_edit_image">false</item>
+    <item type="id" name="dex_event_icon">false</item>
+    <item type="id" name="dex_event_text">false</item>
+    <item type="id" name="dex_event_entry_text">false</item>
+    <item type="id" name="dex_event_check_box">false</item>
+    <item type="id" name="dex_list_left_icon">false</item>
+    <item type="id" name="dex_list_end_image">false</item>
+    <item type="id" name="dex_list_switch">false</item>
+    <item type="id" name="dex_menu">false</item>
+    <item type="id" name="dex_meter">false</item>
+    <item type="id" name="dex_event_entry">false</item>
+    <item type="id" name="dex_share">false</item>
+    <item type="id" name="toolbar_title_view">false</item>
+    <item type="id" name="number_picker">false</item>
+    <item type="id" name="help_text">false</item>
+    <item type="id" name="notify_text">false</item>
+    <item type="id" name="empty">false</item>
+    <item type="id" name="units">false</item>
+    <item type="id" name="barcode_box">false</item>
+    <item type="id" name="error_text">false</item>
+    <item type="id" name="transmitter_pairing_failed_text1">false</item>
+    <item type="id" name="textView2">false</item>
+    <item type="id" name="textView3">false</item>
+    <item type="id" name="textView4">false</item>
+    <item type="id" name="textView5">false</item>
+    <item type="id" name="textViewTimePeriod">false</item>
+    <item type="id" name="bg_meter_value_help_tip">false</item>
+    <item type="id" name="title_error">false</item>
+    <item type="id" name="no_pdf_viewer">false</item>
+    <item type="id" name="no_phone_app">false</item>
+    <item type="id" name="dex_carbs_entry">false</item>
+    <item type="id" name="dex_insulin_entry">false</item>
+    <item type="id" name="dex_exercise_entry">false</item>
+    <item type="id" name="dex_health_entry">false</item>
+    <item type="id" name="dex_event_time">false</item>
+    <item type="id" name="hours_layout">false</item>
+    <item type="id" name="hour_picker">false</item>
+    <item type="id" name="minutes_layout">false</item>
+    <item type="id" name="minute_picker">false</item>
+    <item type="id" name="dex_meter_unit">false</item>
+    <item type="id" name="tech_support_phone_number_button">false</item>
+    <item type="id" name="email_technical_support_help_tip">false</item>
+    <item type="id" name="transmitter_insertion_help_tip">false</item>
+    <item type="id" name="error_still_present_help_tip">false</item>
+    <item type="id" name="sqlReinstall">false</item>
+    <item type="id" name="toggleSwitch">false</item>
+    <item type="id" name="time_duration_descriptor">false</item>
+    <item type="id" name="minute_picker2">false</item>
+    <item type="id" name="dismiss_overlay_explain">false</item>
+    <item type="id" name="dismiss_overlay_button">false</item>
+    <item type="id" name="actualPositive">false</item>
+    <item type="id" name="actualNegative">false</item>
+    <item type="id" name="textViewGlucose">false</item>
+    <item type="id" name="textViewGlucoseUnits">false</item>
+    <item type="id" name="message">false</item>
+    <item type="id" name="follower_name">false</item>
+    <item type="id" name="follower_status">false</item>
+    <item type="id" name="follower_trend_graph_icon">false</item>
+    <item type="id" name="follower_alert_icon">false</item>
+    <item type="id" name="alert_schedule_summary_text">false</item>
+    <item type="id" name="summary_name">false</item>
+    <item type="id" name="summary_always_sound">false</item>
+    <item type="id" name="summary_time">false</item>
+    <item type="id" name="summary_days">false</item>
+    <item type="id" name="summary_low_glucose">false</item>
+    <item type="id" name="summary_high_glucose">false</item>
+    <item type="id" name="CGMStateCircle">false</item>
+    <item type="id" name="CGMStateCircleLayout">false</item>
+    <item type="id" name="calibrationCircle">false</item>
+    <item type="id" name="magGlassView">false</item>
+    <item type="id" name="magGlassCompassView">false</item>
+    <item type="id" name="textViewEGV">false</item>
+    <item type="id" name="textViewEGVUnits">false</item>
+    <item type="id" name="landscape_container">false</item>
+    <item type="id" name="time_scale_buttons_container">false</item>
+    <item type="id" name="one_hour_button">false</item>
+    <item type="id" name="three_hours_button">false</item>
+    <item type="id" name="six_hours_button">false</item>
+    <item type="id" name="twelve_hours_button">false</item>
+    <item type="id" name="twenty_four_hours_button">false</item>
+    <item type="id" name="landscape_date_container">false</item>
+    <item type="id" name="landscape_date">false</item>
+    <item type="id" name="landscape_lollipop_container">false</item>
+    <item type="id" name="landscape_event_lollipop_container">false</item>
+    <item type="id" name="CGMTrendGraph">false</item>
+    <item type="id" name="trend_graph_view">false</item>
+    <item type="id" name="trend_graph_cover_up">false</item>
+    <item type="id" name="two_meter_entries_help_tip">false</item>
+    <item type="id" name="sensor_insertion_video_help_tip">false</item>
+    <item type="id" name="trend_graph_cover_up_black_msg">false</item>
+    <item type="id" name="trend_graph_cover_up_red_msg">false</item>
+    <item type="id" name="schedule_setup_always_sound_switch">false</item>
+    <item type="id" name="id_high_alert_you_text">false</item>
+    <item type="id" name="id_low_alert_you_text">false</item>
+    <item type="id" name="id_schedule_name_enter_text_2">false</item>
+    <item type="id" name="alert_schedule_image">false</item>
+    <item type="id" name="critical_alerts_image">false</item>
+    <item type="id" name="textView6">false</item>
+    <item type="id" name="total_silence_image">false</item>
+    <item type="id" name="textView7">false</item>
+    <item type="id" name="glucose_alert_title">false</item>
+    <item type="id" name="magGlassContainerView">false</item>
+    <item type="id" name="help_tip_icon">false</item>
+    <item type="id" name="help_tip_text">false</item>
+    <item type="id" name="landscape_event_lollipop_text_view">false</item>
+    <item type="id" name="faq_list_item_text">false</item>
+    <item type="id" name="action0">false</item>
+    <item type="id" name="cancel_action">false</item>
+    <item type="id" name="status_bar_latest_event_content">false</item>
+    <item type="id" name="media_actions">false</item>
+    <item type="id" name="action_divider">false</item>
+    <item type="id" name="line1">false</item>
+    <item type="id" name="time">false</item>
+    <item type="id" name="chronometer">false</item>
+    <item type="id" name="text2">false</item>
+    <item type="id" name="line3">false</item>
+    <item type="id" name="text">false</item>
+    <item type="id" name="info">false</item>
+    <item type="id" name="end_padder">false</item>
+    <item type="id" name="glucose_value">false</item>
+    <item type="id" name="glucose_units">false</item>
+    <item type="id" name="trend_arrow">false</item>
+    <item type="id" name="timestamp">false</item>
+    <item type="id" name="notification_trend_graph">false</item>
+    <item type="id" name="shareParentLayout">false</item>
+    <item type="id" name="share_toolbar">false</item>
+    <item type="id" name="share_follow_internet">false</item>
+    <item type="id" name="topLayout">false</item>
+    <item type="id" name="sharing_logo_image">false</item>
+    <item type="id" name="not_sharing_badge">false</item>
+    <item type="id" name="view">false</item>
+    <item type="id" name="row_icon">false</item>
+    <item type="id" name="start_text">false</item>
+    <item type="id" name="end_text">false</item>
+    <item type="id" name="row_image">false</item>
+    <item type="id" name="sensor_expiration_text2">false</item>
+    <item type="id" name="sensor_removal_help">false</item>
+    <item type="id" name="sensor_insertion_help">false</item>
+    <item type="id" name="sensor_expiration_2_hours_text1">false</item>
+    <item type="id" name="sensor_expiration_2_hours_text2">false</item>
+    <item type="id" name="sensor_expiration_30_minutes_text1">false</item>
+    <item type="id" name="sensor_expiration_30_minutes_text2">false</item>
+    <item type="id" name="sensor_expiration_6_hours_text1">false</item>
+    <item type="id" name="sensor_expiration_6_hours_text2">false</item>
+    <item type="id" name="sensor_expired_text1">false</item>
+    <item type="id" name="sensor_failed_text">false</item>
+    <item type="id" name="bluetooth_image">false</item>
+    <item type="id" name="location_on">false</item>
+    <item type="id" name="setupParentLayout">false</item>
+    <item type="id" name="bluetooth_check">false</item>
+    <item type="id" name="transmitter_sn_entry1">false</item>
+    <item type="id" name="imageView1">false</item>
+    <item type="id" name="imageView2">false</item>
+    <item type="id" name="termsPrivacyTextView">false</item>
+    <item type="id" name="low_glucose_notification">false</item>
+    <item type="id" name="linearLayout">false</item>
+    <item type="id" name="volume_control_image">false</item>
+    <item type="id" name="safety_mag_glass">false</item>
+    <item type="id" name="setupScanParentLayout">false</item>
+    <item type="id" name="tableTextView1">false</item>
+    <item type="id" name="tableTextView2">false</item>
+    <item type="id" name="tableTextView3">false</item>
+    <item type="id" name="loading_spinner">false</item>
+    <item type="id" name="circle_linear_layout">false</item>
+    <item type="id" name="textView">false</item>
+    <item type="id" name="textIconView">false</item>
+    <item type="id" name="meter_image">false</item>
+    <item type="id" name="toast_root">false</item>
+    <item type="id" name="toast_image">false</item>
+    <item type="id" name="toast_message_text">false</item>
+    <item type="id" name="low_transmitter_battery_text1">false</item>
+    <item type="id" name="low_transmitter_battery_text2">false</item>
+    <item type="id" name="transmitter_compatibility_website_link">false</item>
+    <item type="id" name="transmitter_failed_text1">false</item>
+    <item type="id" name="transmitter_failed_text2">false</item>
+    <item type="id" name="transmitter_expiration_1_week_text1">false</item>
+    <item type="id" name="transmitter_expiration_1_week_text2">false</item>
+    <item type="id" name="transmitter_expiration_2_weeks_text1">false</item>
+    <item type="id" name="transmitter_expiration_2_weeks_text2">false</item>
+    <item type="id" name="transmitter_expiration_3_weeks_text1">false</item>
+    <item type="id" name="transmitter_expiration_3_weeks_text2">false</item>
+    <item type="id" name="transmitter_pairing_failed_title">false</item>
+    <item type="id" name="transmitter_pairing_failed_text2">false</item>
+    <item type="id" name="action_settings">false</item>
+    <item type="id" name="action_meter">false</item>
+    <item type="id" name="action_event">false</item>
+    <item type="id" name="action_share">false</item>
+</resources>

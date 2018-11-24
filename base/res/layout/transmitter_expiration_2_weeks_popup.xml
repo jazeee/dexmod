@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/transmitter_expiration_2_weeks_text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/transmitter_expiration_2_weeks_text1" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" style="?dexH2" />
+    <TextView android:id="@id/transmitter_expiration_2_weeks_text2" android:paddingTop="@dimen/double_newline_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/transmitter_expiration_text2" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" style="?dexH2" />
+</LinearLayout>

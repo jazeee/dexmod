@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dexcom.cgm.activities.controls.DexBackButtonToolbar android:id="@id/title_user_low_alert" android:layout_width="fill_parent" android:layout_height="wrap_content" android:title="@string/low_glucose_alert" style="@style/DexToolbar" />
+    <com.dexcom.cgm.activities.DexListSwitchView android:id="@id/user_low_alert_switch" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClickAlert" android:contentDescription="@string/low_glucose_alert" app:listTitle="@string/low_glucose_alert" />
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/user_low_alert_notification" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:onClick="onClickNotifyMeBelow" app:listTitle="@string/dex_alerts_notify_me_below" app:listEndText="@string/share_mgdl" app:listEndArrow="true" />
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/user_low_alert_repeat" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:onClick="onClickRepeat" app:listTitle="@string/dex_alerts_repeat" app:listEndText="every 30 minutes" app:listEndArrow="true" />
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/user_low_alert_sound" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:onClick="onClickSound" app:listTitle="@string/sound_alert_text" app:listEndText="Low Alert" app:listEndArrow="true" />
+</LinearLayout>

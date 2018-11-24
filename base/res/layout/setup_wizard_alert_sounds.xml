@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/dex_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dexcom.cgm.activities.controls.DexBackButtonToolbar android:id="@id/webview_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:title="@string/setup_wizard_alert_sounds" style="@style/DexToolbar" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="34.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="34.0dip">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:layout_above="@id/dualButtonLayout" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <LinearLayout android:orientation="vertical" android:id="@id/linearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/volume_control_image" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="15.0dip" android:src="@drawable/device_sound_settings" android:contentDescription="@string/setup_wizard_volume" />
+                <TextView android:id="@id/textView1" android:paddingTop="20.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/whats_new_critical_alerts" android:layout_above="@id/dualButtonLayout" android:lineSpacingExtra="@dimen/setup_wizard_and_whats_new_line_spacing" android:layout_alignParentEnd="true" style="?dexH2" />
+                <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TableRow>
+                        <TextView android:id="@id/textView6" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/whats_new_critical_alerts_precursor_text" android:layout_weight="1.0" style="?dexH2" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/setup_wizard_alert_sounds_bullet_margin" android:text="@string/bullet_point" style="?dexH2" />
+                        <TextView android:id="@id/textView3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/whats_new_urgent_low" android:layout_weight="1.0" style="?dexH2" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/setup_wizard_alert_sounds_bullet_margin" android:text="@string/bullet_point" style="?dexH2" />
+                        <TextView android:id="@id/textView4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/whats_new_transmitter_failure" android:layout_weight="1.0" style="?dexH2" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/setup_wizard_alert_sounds_bullet_margin" android:text="@string/bullet_point" style="?dexH2" />
+                        <TextView android:id="@id/textView5" android:paddingBottom="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/whats_new_sensor_failure" android:layout_weight="1.0" style="?dexH2" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </ScrollView>
+        <com.dexcom.cgm.activities.DualButton android:id="@id/dualButtonLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:textPositive="@string/setup_wizard_i_understand" app:textNegative="@string/setup_wizard_dont_understand" app:onClickPositive="onClickPositive" app:onClickNegative="onClickNegative" />
+    </RelativeLayout>
+</LinearLayout>

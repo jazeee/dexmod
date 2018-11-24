@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_screen_error_enter_bg_meter_values" style="?dexH2" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_screen_error_text_8" android:layout_marginStart="16.0dip" android:layout_marginEnd="0.0dip" style="?dexH2" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_screen_error_text_9" android:layout_marginStart="16.0dip" android:layout_marginEnd="0.0dip" style="?dexH2" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_screen_error_text_10" android:layout_marginStart="16.0dip" android:layout_marginEnd="0.0dip" style="?dexH2" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_screen_error_text_11" android:layout_marginStart="16.0dip" android:layout_marginEnd="0.0dip" style="?dexH2" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_screen_error_text_12" style="?dexH2" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_screen_error_text_13" android:layout_marginStart="16.0dip" android:layout_marginEnd="0.0dip" style="?dexH2" />
+    <TextView android:id="@id/error_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_screen_error_text_14" android:layout_marginStart="16.0dip" android:layout_marginEnd="0.0dip" style="?dexH2" />
+</LinearLayout>

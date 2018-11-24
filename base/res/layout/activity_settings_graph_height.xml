@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dexcom.cgm.activities.controls.DexBackButtonToolbar android:id="@id/title_settings_graph_height" android:layout_width="fill_parent" android:layout_height="wrap_content" android:title="@string/dex_settings_graph_height" style="@style/DexToolbar" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="?android:listDivider" android:splitMotionEvents="false" android:showDividers="middle">
+        <com.dexcom.cgm.activities.DexListNavView android:id="@id/settings_graph_height_300_mgdl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClickSetGraphHeight" app:listTitle="@string/share_mgdl" app:listEndArrow="false" />
+        <com.dexcom.cgm.activities.DexListNavView android:id="@id/settings_graph_height_400_mgdl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClickSetGraphHeight" app:listTitle="@string/share_mgdl" app:listEndArrow="false" />
+        <TextView android:id="@id/settings_graph_height_text_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/dex_settings_graph_height_text_desc" style="?dexH2" />
+    </LinearLayout>
+</LinearLayout>

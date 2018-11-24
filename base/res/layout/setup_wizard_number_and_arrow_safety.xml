@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/dex_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dexcom.cgm.activities.controls.DexBackButtonToolbar android:id="@id/webview_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:title="@string/setup_wizard_safety" style="@style/DexToolbar" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="34.0dip" android:layout_marginRight="34.0dip">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:layout_above="@id/dualButtonLayout" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <RelativeLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="230.0dip" android:layout_height="155.0dip">
+                    <ImageView android:layout_gravity="center" android:id="@id/safety_mag_glass" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setup_wizard_mag_glass" android:layout_centerInParent="true" android:contentDescription="@string/setup_wizard_number_and_arrow" android:layout_marginStart="25.0dip" android:layout_marginEnd="25.0dip" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/safety_mag_glass">
+                        <TextView android:gravity="left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/setup_wizard_Number" android:layout_weight="1.0" />
+                        <TextView android:gravity="right" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/setup_wizard_arrow" android:layout_weight="1.0" android:layout_marginEnd="5.0dip" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <TextView android:id="@id/textView1" android:paddingTop="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setup_wizard_number_and_arrow" style="?dexH2" />
+                <TextView android:id="@id/textView2" android:paddingTop="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setup_wizard_always_use_your_meter" style="?dexH2" />
+                <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip">
+                    <TableRow>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/bullet_point" style="?dexH2" />
+                        <TextView android:id="@id/textView3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/setup_wizard_always_use_your_meter_bullet1" android:layout_weight="1.0" style="?dexH2" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/bullet_point" style="?dexH2" />
+                        <TextView android:id="@id/textView4" android:paddingBottom="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/setup_wizard_always_use_your_meter_bullet2" android:layout_weight="1.0" style="?dexH2" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </ScrollView>
+        <com.dexcom.cgm.activities.DualButton android:id="@id/dualButtonLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:textPositive="@string/setup_wizard_i_understand" app:textNegative="@string/setup_wizard_full_safety_statement" app:onClickPositive="onClickPositive" app:onClickNegative="onClickFullSafetyStatement" />
+    </RelativeLayout>
+</LinearLayout>

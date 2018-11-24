@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dex_meter_entry_is_this_correct" style="?dexH2" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" style="?dexH2" />
+    <TextView android:id="@id/dex_carbs_entry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dex_event_entry_carbs" style="?dexH2" />
+    <TextView android:id="@id/dex_insulin_entry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dex_event_entry_insulin" style="?dexH2" />
+    <TextView android:id="@id/dex_exercise_entry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dex_event_entry_exercise" style="?dexH2" />
+    <TextView android:id="@id/dex_health_entry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dex_event_entry_health" style="?dexH2" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" style="?dexH2" />
+    <TextView android:id="@id/dex_event_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dex_event_entry_event_time" style="?dexH2" />
+</LinearLayout>

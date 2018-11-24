@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dexcom.cgm.activities.controls.DexBackButtonToolbar android:id="@id/title_meter_entry" android:layout_width="fill_parent" android:layout_height="wrap_content" android:title="@string/dex_meter_entry_title" style="@style/DexToolbar" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <EditText android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/meter_entry" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="3" android:inputType="number" android:labelFor="@id/meter_entry" style="@style/DexEditText" />
+        <TextView android:textSize="18.0sp" android:typeface="normal" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="16.0dip" android:text="@string/mgdl_unit_of_measurement" />
+        <com.dexcom.cgm.activities.DualButton android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" app:textPositive="@string/button_text_save" app:textNegative="@string/button_text_cancel" app:onClickPositive="onClickSave" app:onClickNegative="onClickCancel" />
+    </LinearLayout>
+</LinearLayout>

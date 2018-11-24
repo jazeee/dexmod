@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setup_wizard_tx_sn_begin_4" style="?dexH2" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" style="?dexH2" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setup_wizard_transmitter_sn_is_printed_on" style="?dexH2" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/barcode_box" android:layout_width="wrap_content" android:layout_height="75.0dip" android:src="@drawable/transmitter_bottom_circled" android:contentDescription="@string/dex_common_transmitter" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dex_settings_bottom_of_the_transmitter_box" style="?dexH2" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" style="?dexH2" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setup_wizard_please_enter_valid" style="?dexH2" />
+</LinearLayout>

@@ -1,0 +1,53 @@
+.class Lcom/google/common/util/concurrent/AbstractIdleService$3;
+.super Ljava/lang/Object;
+.source "AbstractIdleService.java"
+
+# interfaces
+.implements Ljava/util/concurrent/Executor;
+
+
+# instance fields
+.field final synthetic this$0:Lcom/google/common/util/concurrent/AbstractIdleService;
+
+
+# direct methods
+.method constructor <init>(Lcom/google/common/util/concurrent/AbstractIdleService;)V
+    .locals 0
+
+    .prologue
+    .line 98
+    iput-object p1, p0, Lcom/google/common/util/concurrent/AbstractIdleService$3;->this$0:Lcom/google/common/util/concurrent/AbstractIdleService;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public execute(Ljava/lang/Runnable;)V
+    .locals 1
+
+    .prologue
+    .line 100
+    iget-object v0, p0, Lcom/google/common/util/concurrent/AbstractIdleService$3;->this$0:Lcom/google/common/util/concurrent/AbstractIdleService;
+
+    invoke-static {v0}, Lcom/google/common/util/concurrent/AbstractIdleService;->access$000(Lcom/google/common/util/concurrent/AbstractIdleService;)Lcom/google/common/base/Supplier;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lcom/google/common/base/Supplier;->get()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/String;
+
+    invoke-static {v0, p1}, Lcom/google/common/util/concurrent/MoreExecutors;->newThread(Ljava/lang/String;Ljava/lang/Runnable;)Ljava/lang/Thread;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Thread;->start()V
+
+    .line 101
+    return-void
+.end method

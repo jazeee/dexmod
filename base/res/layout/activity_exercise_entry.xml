@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dexcom.cgm.activities.controls.DexBackButtonToolbar android:id="@id/title_events_entry_exercise" android:layout_width="fill_parent" android:layout_height="wrap_content" android:title="@string/dex_event_entry_exercise_title" style="@style/DexToolbar" />
+    <TextView android:gravity="start|bottom|center" android:id="@id/exercise_intensity_text" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginBottom="8.0dip" android:text="@string/dex_event_entry_exercise_intensity" android:textAllCaps="true" android:layout_marginStart="16.0dip" style="?dexH3" />
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/exercise_intensity_light" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:onClick="onClickNavigate" app:listTitle="@string/dex_event_entry_exercise_intensity_light" app:listEndArrow="false" />
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/exercise_intensity_medium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:onClick="onClickNavigate" app:listTitle="@string/dex_event_entry_exercise_intensity_medium" app:listEndArrow="false" />
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/exercise_intensity_heavy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:onClick="onClickNavigate" app:listTitle="@string/dex_event_entry_exercise_intensity_heavy" app:listEndArrow="false" />
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/exercise_duration" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" android:onClick="onClickNavigate" app:listTitle="@string/dex_event_entry_exercise_duration" app:listEndText="@string/time_30" app:listEndArrow="true" />
+    <LinearLayout android:gravity="bottom" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.dexcom.cgm.activities.DualButton android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip" app:textPositive="@string/button_text_done" app:textNegative="@string/button_text_cancel" app:onClickPositive="onClickSave" app:onClickNegative="onClickCancel" />
+    </LinearLayout>
+</LinearLayout>

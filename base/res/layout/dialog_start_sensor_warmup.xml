@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dex_first_session_warmup_message" style="?dexH2" />
+    <LinearLayout android:layout_gravity="start" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Switch android:theme="@style/DexTheme" android:id="@id/toggleSwitch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_screen_text_11" android:layout_marginStart="@dimen/side_margin_size" style="?dexH2" />
+    </LinearLayout>
+</LinearLayout>

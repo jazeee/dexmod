@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dexcom.cgm.activities.controls.DexBackButtonToolbar android:id="@id/title_events_entry_health" android:layout_width="fill_parent" android:layout_height="wrap_content" android:title="@string/dex_event_entry_health_title" style="@style/DexToolbar" />
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/health_illness" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:onClick="onClickNavigate" app:listTitle="@string/dex_event_entry_health_illness" app:listEndArrow="false" />
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/health_stress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:onClick="onClickNavigate" app:listTitle="@string/dex_event_entry_health_stress" app:listEndArrow="false" />
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/health_feel_high" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:onClick="onClickNavigate" app:listTitle="@string/dex_event_entry_health_feel_high" app:listEndArrow="false" />
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/health_feel_low" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:onClick="onClickNavigate" app:listTitle="@string/dex_event_entry_health_feel_low" app:listEndArrow="false" />
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/health_cycle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:onClick="onClickNavigate" app:listTitle="@string/dex_event_entry_health_cycle" app:listEndArrow="false" />
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/health_alcohol" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:onClick="onClickNavigate" app:listTitle="@string/dex_event_entry_health_alcohol" app:listEndArrow="false" />
+    <LinearLayout android:gravity="bottom" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.dexcom.cgm.activities.DualButton android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip" app:textPositive="@string/button_text_done" app:textNegative="@string/button_text_cancel" app:onClickPositive="onClickSave" app:onClickNegative="onClickCancel" />
+    </LinearLayout>
+</LinearLayout>

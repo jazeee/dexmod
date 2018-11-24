@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/dex_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dexcom.cgm.activities.controls.DexBackButtonToolbar android:id="@id/webview_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:title="@string/setup_wizard_safety" style="@style/DexToolbar" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="34.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="34.0dip" android:layout_below="@id/webview_toolbar">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:layout_above="@id/dualButtonLayout" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/share_logo" android:layout_width="wrap_content" android:layout_height="120.0dip" android:src="@drawable/setup_wizard_acetaminophen" android:contentDescription="@string/setup_wizard_dont_acetaminophen" />
+                <TextView android:textColor="@color/dex_red" android:id="@id/textView1" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setup_wizard_dont_acetaminophen" style="?dexH2" />
+                <TextView android:id="@id/textView2" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setup_wizard_taking_acetaminophen" style="?dexH2" />
+            </LinearLayout>
+        </ScrollView>
+        <com.dexcom.cgm.activities.DualButton android:id="@id/dualButtonLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:textPositive="@string/setup_wizard_i_understand" app:textNegative="@string/setup_wizard_full_safety_statement" app:onClickPositive="onClickPositive" app:onClickNegative="onClickFullSafetyStatement" />
+    </RelativeLayout>
+</RelativeLayout>

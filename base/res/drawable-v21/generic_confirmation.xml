@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="generic_confirmation" android:height="100.0dip" android:width="100.0dip" android:alpha="0.0" android:viewportWidth="100.0" android:viewportHeight="100.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="icon" android:scaleX="0.1035" android:scaleY="0.1035" android:rotation="65.0" android:translateX="50.0" android:translateY="43.79">
+        <group android:name="border" android:scaleX="1.68832" android:scaleY="1.68832">
+            <path android:name="border_path" android:fillColor="#ff1ce8b5" android:pathData="M 0.0,-82.283205 c 45.4437592862,0.0 82.283205,36.8394457138 82.283205,82.283205 c 0.0,45.4437592862 -36.8394457138,82.283205 -82.283205,82.283205 c -45.4437592862,0.0 -82.283205,-36.8394457138 -82.283205,-82.283205 c 0.0,-45.4437592862 36.8394457138,-82.283205 82.283205,-82.283205 Z" />
+        </group>
+        <group android:name="check">
+            <path android:name="check_path" android:fillColor="#ffffffff" android:pathData="M 52.75,-57.75 c 0.0,0.0 -71.5,80.0 -71.5,80.0 c 0.0,0.0 -45.75,-29.5 -45.75,-29.5 c 0.0,0.0 0.0,16.0 0.0,16.0 c 0.0,0.0 46.0,47.75 46.0,47.75 c 0.0,0.0 5.25,0.0 5.25,0.0 c 0.0,0.0 77.5,-104.5 77.5,-104.5 c 0.0,0.0 -11.5,-9.75 -11.5,-9.75 Z" />
+        </group>
+    </group>
+</vector>

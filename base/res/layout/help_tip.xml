@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/help_tip_icon" android:padding="10.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_help_blue" android:contentDescription="@string/dex_general_help" />
+    <TextView android:id="@id/help_tip_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dex_general_help" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" style="?dexH2" />
+</LinearLayout>

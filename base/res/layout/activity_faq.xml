@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/faq_fragment_container" android:background="@color/dex_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.dexcom.cgm.activities.controls.DexBackButtonToolbar android:id="@id/title_faq" android:layout_width="fill_parent" android:layout_height="wrap_content" android:title="@string/help_menu_text_49" style="@style/DexToolbar" />
+    <RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/faq_list_item" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="60.0dip">
+        <ListView android:id="@id/faq_faqList" android:layout_width="fill_parent" android:layout_height="wrap_content" android:splitMotionEvents="false" />
+        <com.dexcom.cgm.activities.ProgressBarCircularIndeterminate android:id="@id/faq_progressBar" android:visibility="invisible" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</FrameLayout>

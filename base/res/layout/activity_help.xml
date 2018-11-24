@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dexcom.cgm.activities.controls.DexBackButtonToolbar android:id="@id/help_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:title="@string/dex_general_help" style="@style/DexToolbar" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="?android:listDivider" android:splitMotionEvents="false" android:showDividers="middle">
+        <com.dexcom.cgm.activities.DexListNavView android:id="@id/help_whats_new" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClickNavigate" app:listTitle="@string/help_menu_text_37" app:listEndArrow="true" />
+        <com.dexcom.cgm.activities.DexListNavView android:id="@id/help_setup_wizard" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClickNavigate" app:listTitle="@string/help_menu_text_38" app:listEndArrow="true" />
+        <com.dexcom.cgm.activities.DexListNavView android:id="@id/help_safety_statements" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClickNavigate" app:listTitle="@string/help_menu_text_39" app:listEndArrow="true" />
+        <com.dexcom.cgm.activities.DexListNavView android:id="@id/help_user_guide" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClickNavigate" app:listTitle="@string/help_menu_text_40" app:listEndArrow="true" />
+        <com.dexcom.cgm.activities.DexListNavView android:id="@id/help_videos" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClickNavigate" app:listTitle="@string/help_menu_text_41" app:listEndArrow="true" />
+        <com.dexcom.cgm.activities.DexListNavView android:id="@id/help_faq" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClickNavigate" app:listTitle="@string/help_menu_text_42" app:listEndArrow="true" />
+        <com.dexcom.cgm.activities.DexListNavView android:id="@id/help_contact_dexcom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClickNavigate" app:listTitle="@string/help_menu_text_43" app:listEndArrow="true" />
+        <com.dexcom.cgm.activities.DexListNavView android:id="@id/help_about" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClickNavigate" app:listTitle="@string/help_menu_text_44" app:listEndArrow="true" />
+    </LinearLayout>
+</LinearLayout>

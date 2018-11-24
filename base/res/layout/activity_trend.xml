@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@id/drawer_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="8.0dip">
+            <Toolbar android:id="@id/toolbar_trend" android:background="@color/dex_transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:navigationIcon="@drawable/ic_arrow_back" style="@style/DexToolbar" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <fragment android:name="com.dexcom.cgm.activities.CGMStateFragment" android:layout_gravity="center_horizontal" android:id="@id/cgmCircle" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="5.0"
+                  xmlns:android="http://schemas.android.com/apk/res/android" />
+                <fragment android:name="com.dexcom.cgm.activities.TrendGraphFragment" android:layout_gravity="bottom" android:id="@id/trend" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="6.0"
+                  xmlns:android="http://schemas.android.com/apk/res/android" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="60.0dip">
+            <ImageView android:layout_gravity="left" android:id="@id/alertSoundStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_alerts_no_sound" android:contentDescription="@string/alert_no_sound" />
+        </LinearLayout>
+        <include android:id="@id/alert_sound_icon_tooltip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" layout="@layout/alert_sound_icon_tooltip" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:id="@id/left_drawer" android:background="?colorPrimary" android:clickable="true" android:layout_width="320.0dip" android:layout_height="fill_parent">
+        <TextView android:id="@id/menu_title" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/main_screen_text_35" style="?dexTitle" />
+        <LinearLayout android:orientation="vertical" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="?android:listDivider" android:showDividers="middle">
+            <com.dexcom.cgm.activities.DexListNavView android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClickAlerts" app:listTitle="@string/dex_alerts_text" app:listStartIcon="@drawable/ic_alerts" />
+            <com.dexcom.cgm.activities.DexListNavView android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClickSettings" app:listTitle="@string/action_settings" app:listStartIcon="@drawable/ic_settings" />
+            <com.dexcom.cgm.activities.DexListNavView android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClickHelp" app:listTitle="@string/dex_general_help" app:listStartIcon="@drawable/ic_help_orange" />
+            <com.dexcom.cgm.activities.DexListNavView android:id="@id/stop_sensor_list_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClickStopSensor" app:listTitle="@string/main_screen_text_29" app:listStartIcon="@drawable/ic_stop_sensor" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.DrawerLayout>

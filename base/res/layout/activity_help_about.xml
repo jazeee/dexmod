@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="?android:listDivider" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dexcom.cgm.activities.controls.DexBackButtonToolbar android:id="@id/help_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:title="@string/help_menu_text_44" style="@style/DexToolbar" />
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/help_about_version" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/help_menu_text_67" app:listEndText="@string/dex_common_triple_dashes" />
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/help_about_legal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClickLegal" app:listTitle="@string/help_menu_text_69" app:listEndArrow="true" />
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/help_about_system_compatibility" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClickSystemCompatibility" app:listTitle="@string/help_menu_text_70" app:listEndArrow="true" />
+    <com.dexcom.cgm.activities.DexListNavView android:id="@id/help_about_copyright" android:layout_width="fill_parent" android:layout_height="wrap_content" app:listTitle="@string/help_menu_copyright_text" app:listEndText="@string/help_menu_copyright_date" />
+</LinearLayout>

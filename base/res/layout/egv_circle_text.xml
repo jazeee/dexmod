@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="55.0sp" android:textStyle="bold" android:textColor="@color/dex_black" android:gravity="center" android:layout_gravity="center" android:id="@id/textViewGlucose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/mag_glass_glucose_default" style="DexText" />
+    <TextView android:textSize="20.0sp" android:textColor="@color/dex_black" android:gravity="center" android:layout_gravity="center" android:id="@id/textViewGlucoseUnits" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mgdl_unit_of_measurement" android:fontFamily="sans-serif-light" style="DexText" />
+</LinearLayout>

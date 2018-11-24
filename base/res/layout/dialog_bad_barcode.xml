@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setup_wizard_not_tx_barcode" style="?dexH2" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/barcode_box" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-32.0dip" android:layout_marginBottom="-32.0dip" android:src="@drawable/barcode_on_box" android:contentDescription="@string/dex_general_blank" android:layout_marginStart="@dimen/side_margin_size" android:layout_marginEnd="@dimen/side_margin_size" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setup_wizard_take_photo_barcode" style="?dexH2" />
+</LinearLayout>

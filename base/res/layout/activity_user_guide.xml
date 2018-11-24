@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/dex_white" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/horizontal_userguide_progressbar" android:layout_width="fill_parent" android:layout_height="5.0dip" android:layout_marginLeft="34.0dip" android:layout_marginRight="34.0dip" android:progressDrawable="@drawable/custom_progress_bar" android:layout_centerInParent="true" style="?android:attr/progressBarStyleHorizontal" />
+    <TextView android:textColor="@color/dex_green" android:id="@id/percent_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" 0%" android:layout_below="@id/horizontal_userguide_progressbar" android:layout_centerHorizontal="true" style="?dexH2" />
+    <com.dexcom.cgm.activities.controls.DexBackButtonToolbar android:id="@id/title_help" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:title="@string/help_menu_text_40" android:layout_alignParentStart="true" style="@style/DexToolbar" />
+</RelativeLayout>

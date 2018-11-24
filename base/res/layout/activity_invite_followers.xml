@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dexcom.cgm.activities.controls.DexBackButtonToolbar android:id="@id/followers_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:title="@string/share_screen_text_18" style="@style/DexToolbar" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="34.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="34.0dip" android:layout_below="@id/followers_toolbar">
+        <ImageView android:layout_gravity="center" android:id="@id/followers" android:layout_width="175.0dip" android:layout_height="175.0dip" android:layout_margin="16.0dip" android:src="@drawable/followers" android:layout_centerHorizontal="true" android:contentDescription="@string/share_screen_text_18" />
+        <TextView android:id="@id/followers_text" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/share_screen_text_19" android:layout_below="@id/followers" style="?dexH2" />
+        <com.dexcom.cgm.activities.DualButton android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:textPositive="@string/share_screen_text_20" app:onClickPositive="onClickInviteFollowers" />
+    </RelativeLayout>
+</RelativeLayout>

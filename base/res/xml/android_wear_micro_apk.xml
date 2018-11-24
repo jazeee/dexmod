@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wearableApp package="com.dexcom.cgm">
+    <versionCode>10010</versionCode>
+    <versionName>1.7.6.1</versionName>
+    <rawPathResId>android_wear_micro_apk</rawPathResId>
+</wearableApp>

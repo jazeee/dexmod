@@ -1,0 +1,131 @@
+.class final Lcom/google/common/collect/ComparisonChain$InactiveComparisonChain;
+.super Lcom/google/common/collect/ComparisonChain;
+.source "ComparisonChain.java"
+
+
+# instance fields
+.field final result:I
+
+
+# direct methods
+.method constructor <init>(I)V
+    .locals 1
+
+    .prologue
+    .line 115
+    const/4 v0, 0x0
+
+    invoke-direct {p0, v0}, Lcom/google/common/collect/ComparisonChain;-><init>(Lcom/google/common/collect/ComparisonChain$1;)V
+
+    .line 116
+    iput p1, p0, Lcom/google/common/collect/ComparisonChain$InactiveComparisonChain;->result:I
+
+    .line 117
+    return-void
+.end method
+
+
+# virtual methods
+.method public final compare(DD)Lcom/google/common/collect/ComparisonChain;
+    .locals 0
+
+    .prologue
+    .line 136
+    return-object p0
+.end method
+
+.method public final compare(FF)Lcom/google/common/collect/ComparisonChain;
+    .locals 0
+
+    .prologue
+    .line 133
+    return-object p0
+.end method
+
+.method public final compare(II)Lcom/google/common/collect/ComparisonChain;
+    .locals 0
+
+    .prologue
+    .line 127
+    return-object p0
+.end method
+
+.method public final compare(JJ)Lcom/google/common/collect/ComparisonChain;
+    .locals 0
+
+    .prologue
+    .line 130
+    return-object p0
+.end method
+
+.method public final compare(Ljava/lang/Comparable;Ljava/lang/Comparable;)Lcom/google/common/collect/ComparisonChain;
+    .locals 0
+    .param p1    # Ljava/lang/Comparable;
+        .annotation runtime Ljavax/annotation/Nullable;
+        .end annotation
+    .end param
+    .param p2    # Ljava/lang/Comparable;
+        .annotation runtime Ljavax/annotation/Nullable;
+        .end annotation
+    .end param
+
+    .prologue
+    .line 120
+    return-object p0
+.end method
+
+.method public final compare(Ljava/lang/Object;Ljava/lang/Object;Ljava/util/Comparator;)Lcom/google/common/collect/ComparisonChain;
+    .locals 0
+    .param p1    # Ljava/lang/Object;
+        .annotation runtime Ljavax/annotation/Nullable;
+        .end annotation
+    .end param
+    .param p2    # Ljava/lang/Object;
+        .annotation runtime Ljavax/annotation/Nullable;
+        .end annotation
+    .end param
+    .param p3    # Ljava/util/Comparator;
+        .annotation runtime Ljavax/annotation/Nullable;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(TT;TT;",
+            "Ljava/util/Comparator",
+            "<TT;>;)",
+            "Lcom/google/common/collect/ComparisonChain;"
+        }
+    .end annotation
+
+    .prologue
+    .line 124
+    return-object p0
+.end method
+
+.method public final compareFalseFirst(ZZ)Lcom/google/common/collect/ComparisonChain;
+    .locals 0
+
+    .prologue
+    .line 142
+    return-object p0
+.end method
+
+.method public final compareTrueFirst(ZZ)Lcom/google/common/collect/ComparisonChain;
+    .locals 0
+
+    .prologue
+    .line 139
+    return-object p0
+.end method
+
+.method public final result()I
+    .locals 1
+
+    .prologue
+    .line 145
+    iget v0, p0, Lcom/google/common/collect/ComparisonChain$InactiveComparisonChain;->result:I
+
+    return v0
+.end method

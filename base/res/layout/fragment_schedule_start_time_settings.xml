@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/id_start_time_set_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/start_time_schedule_help_text" android:labelFor="@id/id_start_time_picker" style="?dexH2" />
+    <com.dexcom.cgm.activities.controls.DexEditText android:textColorHint="@color/dex_gloomy_gray" android:id="@id/id_start_time_picker" android:paddingTop="80.0dip" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:maxLines="1" android:inputType="none" android:onClick="onClickStartDatePicker" android:paddingStart="2.5dip" android:paddingEnd="0.0dip" />
+    <android.support.v4.widget.Space android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.dexcom.cgm.activities.DualButton android:gravity="center_vertical" android:id="@id/dualButtonLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="18.0dip" android:layout_marginBottom="20.0dip" app:textPositive="@string/setup_wizard_next" app:textNegative="" app:onClickPositive="onSaveStartTime" app:onClickNegative="onClickNegative" />
+</LinearLayout>
