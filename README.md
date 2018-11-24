@@ -1,4 +1,7 @@
 Use apktool to extract, modify, and build an apk.
+https://github.com/iBotPeaches/Apktool
+
+And install `adb` for Android debugger tools, of course.
 
 # Extract apk contents
 apktool d base.apk
