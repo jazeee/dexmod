@@ -37,7 +37,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 3053
-    const/4 v0, 0x0
+    const/4 v0, 0x1
 
     iput-boolean v0, p0, Lcom/dexcom/a/a/a;->m_disableAppCompatibility:Z
 
@@ -1448,55 +1448,23 @@
 .method public performAppCompatabilityServerIO(Lcom/dexcom/cgm/model/AppRuntimeInfo;Ljava/lang/String;Lcom/dexcom/cgm/appcompatability/a;)V
     .locals 2
 
-    .prologue
-    .line 1043
-    invoke-virtual {p0, p1}, Lcom/dexcom/a/a/a;->checkValidity(Lcom/dexcom/cgm/model/AppRuntimeInfo;)Lcom/dexcom/cgm/model/ValidityResult;
+    new-instance v0, Lcom/dexcom/cgm/model/ValidityResult;
 
-    move-result-object v0
+    invoke-direct {v0}, Lcom/dexcom/cgm/model/ValidityResult;-><init>()V
+
+    const-string v1, "ValidEnvironment"
+
+    invoke-virtual {v0, v1}, Lcom/dexcom/cgm/model/ValidityResult;->setValidity(Ljava/lang/String;)V
 
     iput-object v0, p0, Lcom/dexcom/a/a/a;->m_validityResult:Lcom/dexcom/cgm/model/ValidityResult;
 
-    .line 1044
-    iget-object v0, p0, Lcom/dexcom/a/a/a;->m_validityResult:Lcom/dexcom/cgm/model/ValidityResult;
-
-    invoke-virtual {v0}, Lcom/dexcom/cgm/model/ValidityResult;->getMessageId()Ljava/lang/String;
-
-    move-result-object v0
-
-    const-string v1, "00000000-0000-0000-0000-000000000000"
-
-    invoke-virtual {v0, v1}, Ljava/lang/String;->contentEquals(Ljava/lang/CharSequence;)Z
-
-    move-result v0
-
-    if-nez v0, :cond_0
-
-    .line 1046
-    iget-object v0, p0, Lcom/dexcom/a/a/a;->m_validityResult:Lcom/dexcom/cgm/model/ValidityResult;
-
-    invoke-virtual {v0}, Lcom/dexcom/cgm/model/ValidityResult;->getMessageId()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v0}, Ljava/util/UUID;->fromString(Ljava/lang/String;)Ljava/util/UUID;
-
-    move-result-object v0
-
-    invoke-virtual {p0, v0, p2}, Lcom/dexcom/a/a/a;->getMessage(Ljava/util/UUID;Ljava/lang/String;)Lcom/dexcom/cgm/model/GetMessageResult;
-
-    move-result-object v0
-
-    iput-object v0, p0, Lcom/dexcom/a/a/a;->m_getMessageResult:Lcom/dexcom/cgm/model/GetMessageResult;
-
-    .line 1049
-    :cond_0
-    if-eqz p3, :cond_1
+    if-eqz p3, :cond_0
 
     .line 1050
     invoke-interface {p3}, Lcom/dexcom/cgm/appcompatability/a;->serverCallFinished()V
 
     .line 1051
-    :cond_1
+    :cond_0
     return-void
 .end method
 
