@@ -17,7 +17,7 @@
 
     .prologue
     .line 40
-    const-wide/16 v0, 0x5dc
+    const-wide/16 v0, 0x3e8
 
     sput-wide v0, Lcom/dexcom/cgm/activities/notifications/NotificationCreator;->VIBRATION_TIME_IN_MILLISECONDS:J
 

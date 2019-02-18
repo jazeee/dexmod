@@ -368,7 +368,7 @@ If you do not already have a Dexcom account, tap \"Sign up\" on the bottom of th
     <string name="dex_meter_entry_text">"Please enter a valid BG meter value.
 
 A valid meter value is between %1$s and %2$s %3$s."</string>
-    <string name="dex_meter_entry_title">Hey Jaz! Enter BG</string>
+    <string name="dex_meter_entry_title">Hey Jaz, Enter BG</string>
     <string name="dex_meter_entry_units_per_minute">%1$s %2$s/min</string>
     <string name="dex_pairing_tx_device_30_minutes">It will take up to 30 minutes for your mobile device to connect to your transmitter using Bluetooth.</string>
     <string name="dex_pairing_tx_device_message">Now connecting your mobile device to your transmitter</string>

@@ -126,7 +126,7 @@
 
     move-result-object v0
 
-    const-wide/16 v2, 0x5dc
+    const-wide/16 v2, 0x3e8
 
     invoke-virtual {v0, v2, v3}, Landroid/os/Vibrator;->vibrate(J)V
 

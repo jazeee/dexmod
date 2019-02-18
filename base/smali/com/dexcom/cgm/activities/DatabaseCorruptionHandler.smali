@@ -8,7 +8,7 @@
 
 .field private static MAX_ESCALATION_COUNT:I = 0x0
 
-.field private static final VIBRATE_FOR_1500_MILLISECONDS:I = 0x5dc
+.field private static final VIBRATE_FOR_1500_MILLISECONDS:I = 0x3e8
 
 .field private static isAlertSettingsCorrupted:Z
 

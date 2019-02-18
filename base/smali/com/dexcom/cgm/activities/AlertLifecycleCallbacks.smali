@@ -9,7 +9,7 @@
 # static fields
 .field private static final FIRST_ALARM:I = 0x0
 
-.field private static final VIBRATE_FOR_1500_MILLISECONDS:I = 0x5dc
+.field private static final VIBRATE_FOR_1500_MILLISECONDS:I = 0x3e8
 
 .field private static m_currentActivity:Landroid/app/Activity;
 
@@ -434,7 +434,7 @@
     check-cast v0, Landroid/os/Vibrator;
 
     .line 348
-    const-wide/16 v4, 0x5dc
+    const-wide/16 v4, 0x3e8
 
     invoke-virtual {v0, v4, v5}, Landroid/os/Vibrator;->vibrate(J)V
 

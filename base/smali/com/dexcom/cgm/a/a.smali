@@ -221,7 +221,7 @@
 
     const/4 v5, 0x0
 
-    const/16 v6, 0xf
+    const/16 v6, 0x3c
 
     const/4 v7, 0x0
 

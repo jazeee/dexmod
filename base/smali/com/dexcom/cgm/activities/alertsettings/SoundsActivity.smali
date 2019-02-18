@@ -7,7 +7,7 @@
 
 
 # static fields
-.field private static final VIBRATE_FOR_1500_MILLISECONDS:I = 0x5dc
+.field private static final VIBRATE_FOR_1500_MILLISECONDS:I = 0x3e8
 
 
 # instance fields
